@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{B991E678-0F1B-48BA-ABD4-BFA8EF587B58}" SchemaVersion="80">
+	<InteractiveMusic>
+		<WorkUnit Name="EpicMegaJamMusic" ID="{B991E678-0F1B-48BA-ABD4-BFA8EF587B58}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Music_01" ID="{D831D43B-F4FA-4AEB-A657-521C8885D9CF}" ShortID="817770783">
+					<ChildrenList>
+						<MusicPlaylistContainer Name="Music_01" ID="{B6023BEF-FE88-4F2A-A9C3-66C42A66E3F7}" ShortID="295952235">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A2AF8EF5-4D8C-45BD-B9D7-05E818D0FDE6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Music_01" ID="{458A0C06-1FA8-4D1A-9BAA-93C5387A2C04}" WorkUnitID="{48788DB2-6AD1-41E8-88D5-9E63C46392A2}"/>
+								</Reference>
+							</ReferenceList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{14774F75-72C1-4FA4-A185-41D7BB52AE4A}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{56FBC785-7C4A-4539-B1F4-2C12A5068183}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{9A89B4E8-A91A-42F3-A135-F26428C5F41D}" ShortID="437077311"/>
+							</Playlist>
+						</MusicPlaylistContainer>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</InteractiveMusic>
+</WwiseDocument>

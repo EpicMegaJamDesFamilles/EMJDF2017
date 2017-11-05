@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{68480AD3-C745-4E54-98EE-B29A5065CC84}" SchemaVersion="80">
+	<AudioObjects>
+		<WorkUnit Name="EpicMegaJamSound" ID="{68480AD3-C745-4E54-98EE-B29A5065CC84}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Ambiances" ID="{73626CB3-0443-4A76-BB54-95E336351F98}" ShortID="549601868">
+					<ChildrenList>
+						<Folder Name="2D" ID="{B567D91D-1FB3-4337-B193-88B066CB03F4}" ShortID="17189987">
+							<ChildrenList>
+								<ActorMixer Name="Ambiance_2D_01" ID="{ECD06032-FCCA-4463-B636-752C62A881DE}" ShortID="505243055">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A2AF8EF5-4D8C-45BD-B9D7-05E818D0FDE6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Amb_2D" ID="{F05994F2-BB28-423C-B640-C440C5103796}" WorkUnitID="{48788DB2-6AD1-41E8-88D5-9E63C46392A2}"/>
+										</Reference>
+									</ReferenceList>
+								</ActorMixer>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="3D" ID="{0FD133B8-855A-4D2E-82B3-C01C6EBAE0D8}" ShortID="771167929">
+							<ChildrenList>
+								<ActorMixer Name="Ambiances_3D_01" ID="{726F1B5A-6F39-4C56-80D8-339E9FEF01E5}" ShortID="962724539">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A2AF8EF5-4D8C-45BD-B9D7-05E818D0FDE6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Amb_3D" ID="{EBC12D3E-5C90-4EF0-94BC-B2CE3997C7A3}" WorkUnitID="{48788DB2-6AD1-41E8-88D5-9E63C46392A2}"/>
+										</Reference>
+									</ReferenceList>
+								</ActorMixer>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Sfx" ID="{03DC7620-0945-424A-B221-3D87163689CF}" ShortID="1038674732">
+					<ChildrenList>
+						<Folder Name="2D" ID="{95457C75-0BE5-4294-BD5A-C12336A66B48}" ShortID="348574497">
+							<ChildrenList>
+								<ActorMixer Name="Sfx_2D_01" ID="{EEC6702B-BA32-4B68-98A1-B48EA31C1FC4}" ShortID="141965049">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A2AF8EF5-4D8C-45BD-B9D7-05E818D0FDE6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Sfx_2D" ID="{627C591A-6693-4707-A7BD-A5AFC098A056}" WorkUnitID="{48788DB2-6AD1-41E8-88D5-9E63C46392A2}"/>
+										</Reference>
+									</ReferenceList>
+								</ActorMixer>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="3D" ID="{33C7DBF7-048C-436D-972B-6DD98C45C98F}" ShortID="687883812">
+							<ChildrenList>
+								<ActorMixer Name="Sfx_3D_01" ID="{09747C0D-FE89-405C-8122-791A2C69E57F}" ShortID="551006540">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A2AF8EF5-4D8C-45BD-B9D7-05E818D0FDE6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Sfx_3D" ID="{5B44A31F-3051-4AB2-9946-BA0D9A025CB5}" WorkUnitID="{48788DB2-6AD1-41E8-88D5-9E63C46392A2}"/>
+										</Reference>
+									</ReferenceList>
+								</ActorMixer>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
