@@ -3,7 +3,66 @@
 	<Busses>
 		<WorkUnit Name="Default Work Unit" ID="{48788DB2-6AD1-41E8-88D5-9E63C46392A2}" PersistMode="Standalone">
 			<ChildrenList>
-				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
+				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<ChildrenList>
+						<Bus Name="Ambiances" ID="{A27FA9B5-AA45-4E3B-BBFA-72DE0D99253D}">
+							<ReferenceList>
+								<Reference Name="Effect1" PluginName="Wwise Gain" CompanyID="0" PluginID="139" PluginType="3">
+									<ObjectRef Name="Mixing_Ambiances" ID="{6C0387D2-C380-4510-B147-646A487DE516}" WorkUnitID="{80B8CBF7-5D7C-4859-9430-26631DE4E91D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Bus Name="Amb_2D" ID="{F05994F2-BB28-423C-B640-C440C5103796}">
+									<ReferenceList>
+										<Reference Name="Effect1" PluginName="Wwise Gain" CompanyID="0" PluginID="139" PluginType="3">
+											<ObjectRef Name="Mixing_Ambiances" ID="{6C0387D2-C380-4510-B147-646A487DE516}" WorkUnitID="{80B8CBF7-5D7C-4859-9430-26631DE4E91D}"/>
+										</Reference>
+									</ReferenceList>
+								</Bus>
+								<Bus Name="Amb_3D" ID="{EBC12D3E-5C90-4EF0-94BC-B2CE3997C7A3}">
+									<ReferenceList>
+										<Reference Name="Effect1" PluginName="Wwise Gain" CompanyID="0" PluginID="139" PluginType="3">
+											<ObjectRef Name="Mixing_Ambiances" ID="{6C0387D2-C380-4510-B147-646A487DE516}" WorkUnitID="{80B8CBF7-5D7C-4859-9430-26631DE4E91D}"/>
+										</Reference>
+									</ReferenceList>
+								</Bus>
+							</ChildrenList>
+						</Bus>
+						<Bus Name="Sfx" ID="{56FB629C-5B0D-4B82-8A66-8A3A663EDA4E}">
+							<ReferenceList>
+								<Reference Name="Effect1" PluginName="Wwise Gain" CompanyID="0" PluginID="139" PluginType="3">
+									<ObjectRef Name="Mixing_Sfx" ID="{C1E2B9D0-4B3C-407D-86FF-3400A89ED255}" WorkUnitID="{80B8CBF7-5D7C-4859-9430-26631DE4E91D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Bus Name="Sfx_2D" ID="{627C591A-6693-4707-A7BD-A5AFC098A056}">
+									<ReferenceList>
+										<Reference Name="Effect1" PluginName="Wwise Gain" CompanyID="0" PluginID="139" PluginType="3">
+											<ObjectRef Name="Mixing_Sfx" ID="{C1E2B9D0-4B3C-407D-86FF-3400A89ED255}" WorkUnitID="{80B8CBF7-5D7C-4859-9430-26631DE4E91D}"/>
+										</Reference>
+									</ReferenceList>
+								</Bus>
+								<Bus Name="Sfx_3D" ID="{5B44A31F-3051-4AB2-9946-BA0D9A025CB5}">
+									<ReferenceList>
+										<Reference Name="Effect1" PluginName="Wwise Gain" CompanyID="0" PluginID="139" PluginType="3">
+											<ObjectRef Name="Mixing_Sfx" ID="{C1E2B9D0-4B3C-407D-86FF-3400A89ED255}" WorkUnitID="{80B8CBF7-5D7C-4859-9430-26631DE4E91D}"/>
+										</Reference>
+									</ReferenceList>
+								</Bus>
+							</ChildrenList>
+						</Bus>
+						<Bus Name="Musics" ID="{79576533-613E-4D1F-818A-818379FC8845}">
+							<ReferenceList>
+								<Reference Name="Effect1" PluginName="Wwise Gain" CompanyID="0" PluginID="139" PluginType="3">
+									<ObjectRef Name="Mixing_Music" ID="{0733191F-B7E0-47CA-AA22-75689EDAC4E5}" WorkUnitID="{80B8CBF7-5D7C-4859-9430-26631DE4E91D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Bus Name="Music_01" ID="{458A0C06-1FA8-4D1A-9BAA-93C5387A2C04}"/>
+							</ChildrenList>
+						</Bus>
+					</ChildrenList>
+				</Bus>
 				<Bus Name="Master Secondary Bus" ID="{D2E0BC7E-7B3F-4FFE-A670-FAE02761B631}"/>
 				<MotionBus Name="Master Motion Bus" ID="{20A630BA-3398-4676-B927-1004DFE41FD8}"/>
 			</ChildrenList>

@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{80B8CBF7-5D7C-4859-9430-26631DE4E91D}" SchemaVersion="80">
 	<Effects>
-		<WorkUnit Name="Default Work Unit" ID="{80B8CBF7-5D7C-4859-9430-26631DE4E91D}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{80B8CBF7-5D7C-4859-9430-26631DE4E91D}" PersistMode="Standalone">
+			<ChildrenList>
+				<Effect Name="Mixing_Ambiances" ID="{6C0387D2-C380-4510-B147-646A487DE516}" PluginName="Wwise Gain" CompanyID="0" PluginID="139" PluginType="3"/>
+				<Effect Name="Mixing_Sfx" ID="{C1E2B9D0-4B3C-407D-86FF-3400A89ED255}" PluginName="Wwise Gain" CompanyID="0" PluginID="139" PluginType="3"/>
+				<Effect Name="Mixing_Music" ID="{0733191F-B7E0-47CA-AA22-75689EDAC4E5}" PluginName="Wwise Gain" CompanyID="0" PluginID="139" PluginType="3"/>
+			</ChildrenList>
+		</WorkUnit>
 	</Effects>
 </WwiseDocument>
