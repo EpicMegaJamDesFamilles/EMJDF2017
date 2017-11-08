@@ -1,6 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{1061F995-FEBF-4197-ACC4-5F5C3FD4DF3D}" SchemaVersion="80">
 	<States>
-		<WorkUnit Name="Default Work Unit" ID="{1061F995-FEBF-4197-ACC4-5F5C3FD4DF3D}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{1061F995-FEBF-4197-ACC4-5F5C3FD4DF3D}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="Footsptes" ID="{6695C97D-F367-433B-997D-81AF5AD05BF0}">
+					<ChildrenList>
+						<State Name="None" ID="{0CBCF0FD-0946-4C10-BC0C-881CBDBA9BB5}"/>
+						<State Name="Concrete" ID="{FC21249D-944A-4020-8152-2A6CA025947A}"/>
+						<State Name="Dirt" ID="{4349134B-02FE-42E9-9713-00D0D83967FF}"/>
+						<State Name="Metal" ID="{E243FA73-8B3B-4660-92AD-696EE3447DE8}"/>
+						<State Name="Carpet" ID="{7F74AB6C-94EC-4884-8834-18FA75B2F57B}"/>
+						<State Name="Grid" ID="{13E31F1A-8FF3-4C7C-8C98-F1CC18DD3400}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="Music_level_01" ID="{61BA8D82-9643-425C-98AC-30F9E3887A2A}">
+					<ChildrenList>
+						<State Name="None" ID="{95ADD2A4-9530-426C-9BF7-5B1401D320CF}"/>
+						<State Name="Calm" ID="{5DB6282A-6BD2-44D0-98AA-097546EEBDF3}"/>
+						<State Name="Danger" ID="{B2C56148-D96E-4DD7-971B-2137C0787DD9}"/>
+						<State Name="Death" ID="{2D86CA38-A34C-4E29-A27C-EDAAD0CEA605}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
 	</States>
 </WwiseDocument>
