@@ -11,6 +11,11 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
+		<SoundBank Id="305028971" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Reverberation</ObjectPath>
+			<ShortName>Reverberation</ShortName>
+			<Path>Reverberation.bnk</Path>
+		</SoundBank>
 		<SoundBank Id="1223543420" Language="SFX">
 			<ObjectPath>\SoundBanks\Default Work Unit\EpicJam_SoundBank</ObjectPath>
 			<ShortName>EpicJam_SoundBank</ShortName>
@@ -555,6 +560,10 @@
 				<File Id="819598292" Language="SFX">
 					<ShortName>Sfx_WoodDoor_Close_Rnd_01.wav</ShortName>
 					<Path>SFX\Sfx_WoodDoor_Close_Rnd_01_1C9C67B2.wem</Path>
+				</File>
+				<File Id="823161926" Language="SFX">
+					<ShortName>Stem_Transition BPM Danger End.wav</ShortName>
+					<Path>SFX\Stem_Transition BPM Danger End_F17FB28C.wem</Path>
 				</File>
 				<File Id="824441054" Language="SFX">
 					<ShortName>Sfx_Glass_Break_Rnd_05.wav</ShortName>

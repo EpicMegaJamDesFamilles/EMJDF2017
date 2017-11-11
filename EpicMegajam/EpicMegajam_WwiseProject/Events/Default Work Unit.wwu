@@ -3,31 +3,268 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{B319B8D8-C543-4385-A9B5-F7D40FDF3603}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="Event_Amb_Cable_Squeak" ID="{A835E3C6-7A17-4BDD-BC8A-7574ED02E098}">
+				<Folder Name="Amb 3D" ID="{07FFF97D-E722-4340-85B1-53618FCB1988}" ShortID="464251349">
 					<ChildrenList>
-						<Action Name="" ID="{9A0E4DDF-4BDA-4807-9DE4-48845B002498}" ShortID="607221798">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="1"/>
-								<Property Name="Delay" Type="Real64">
-									<ModifierList>
-										<ModifierInfo>
-											<Modifier Name="" ID="{7E6FB693-F84F-48A6-B445-6AE677850094}">
-												<PropertyList>
-													<Property Name="Max" Type="Real64" Value="5"/>
-												</PropertyList>
-											</Modifier>
-										</ModifierInfo>
-									</ModifierList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Amb_Cable_Squeak" ID="{D93E4BCC-2BBC-4710-83F9-7F81894CA3D2}" WorkUnitID="{68480AD3-C745-4E54-98EE-B29A5065CC84}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
+						<Event Name="Event_Amb_Cable_Squeak" ID="{A835E3C6-7A17-4BDD-BC8A-7574ED02E098}">
+							<ChildrenList>
+								<Action Name="" ID="{9A0E4DDF-4BDA-4807-9DE4-48845B002498}" ShortID="607221798">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+										<Property Name="Delay" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{7E6FB693-F84F-48A6-B445-6AE677850094}">
+														<PropertyList>
+															<Property Name="Max" Type="Real64" Value="5"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Amb_Cable_Squeak" ID="{D93E4BCC-2BBC-4710-83F9-7F81894CA3D2}" WorkUnitID="{68480AD3-C745-4E54-98EE-B29A5065CC84}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Event_Amb_FlashLight" ID="{9EF2CF7B-A8CA-4DC9-9EE4-C638D4BB25C3}">
+							<ChildrenList>
+								<Action Name="" ID="{0E95AE5B-B618-4AF7-A37B-153123374CBF}" ShortID="437893389">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Amb_FlashLight" ID="{73525CF4-6D3E-4EF6-AF0C-38E8F79932A1}" WorkUnitID="{68480AD3-C745-4E54-98EE-B29A5065CC84}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Event_Amb_Monster" ID="{B4ACC85D-3FD8-46E3-AF22-BA16B6D30B7A}">
+							<ChildrenList>
+								<Action Name="" ID="{21EB2EF6-C2EE-4F44-BE16-080A83D857F2}" ShortID="84046656">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Amb_Monster" ID="{6559A636-292A-47B6-860D-B27BE93F2F63}" WorkUnitID="{68480AD3-C745-4E54-98EE-B29A5065CC84}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
-				</Event>
+				</Folder>
+				<Folder Name="Sfx 3D" ID="{E80AF23B-3CE2-48D9-B420-BFB98CF1495C}" ShortID="230850759">
+					<ChildrenList>
+						<Event Name="Event_Door_Beep" ID="{E8848C12-3A67-41AB-983E-649A68DE1B21}">
+							<ChildrenList>
+								<Action Name="" ID="{61B8BD68-F2B1-451E-A122-95B961B10281}" ShortID="981719060">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Sfx_Door_Beep" ID="{63D2BF95-97FF-467D-8C23-2EC00F661F4B}" WorkUnitID="{68480AD3-C745-4E54-98EE-B29A5065CC84}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Event_Box_Impact" ID="{39075830-FD8B-468C-AC05-49687BE29460}">
+							<ChildrenList>
+								<Action Name="" ID="{45EFA0D1-5858-4AC4-9682-77B89CF171D8}" ShortID="877261426">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Sfx_Box_Impact" ID="{ED187342-3171-4881-8F2D-4848413253F4}" WorkUnitID="{68480AD3-C745-4E54-98EE-B29A5065CC84}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Event_Box_Loop" ID="{C84F3BB6-7202-427D-B669-370C541E4398}">
+							<ChildrenList>
+								<Action Name="" ID="{D30EBA0A-B387-42AD-8394-E0632986839C}" ShortID="851609611">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Sfx_Box_Loop" ID="{12898638-D099-481B-A6FA-1F8875EBA584}" WorkUnitID="{68480AD3-C745-4E54-98EE-B29A5065CC84}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Event_Glass_Break" ID="{C79204D5-45AE-472D-9BB2-308A7DA5E163}">
+							<ChildrenList>
+								<Action Name="" ID="{8FE7600B-9FD6-45FD-81CD-3F8DE03CB0BD}" ShortID="1059880557">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Sfx_Glass_Break" ID="{DBC84BF5-C930-4593-A9AE-226864CC2CBE}" WorkUnitID="{68480AD3-C745-4E54-98EE-B29A5065CC84}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Event_LightDown" ID="{36883591-3540-4B90-BD7E-3081DABEDD31}">
+							<ChildrenList>
+								<Action Name="" ID="{C2B9EBFB-170D-4A3A-A064-1B5B13E584B2}" ShortID="1071371919">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Sfx_LightDown" ID="{E918ACFB-D585-43F3-9D18-D5C990B3D200}" WorkUnitID="{68480AD3-C745-4E54-98EE-B29A5065CC84}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Event_Neon" ID="{E48D604A-7E7B-49CA-8919-97E1EF61A606}">
+							<ChildrenList>
+								<Action Name="" ID="{7C94F42C-9034-40A5-B585-F6233CD2B122}" ShortID="20476739">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Sfx_Neon" ID="{3A8240C3-CAF3-4749-99B0-673107CEF694}" WorkUnitID="{68480AD3-C745-4E54-98EE-B29A5065CC84}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Event_Platform_Movement_Loop" ID="{2EAC3032-A453-4287-9787-F00BF8A5BE44}">
+							<ChildrenList>
+								<Action Name="" ID="{D736F0A0-B088-40C5-B651-208332B948E8}" ShortID="432852725">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Sfx_Platform_Movement_Loop" ID="{05359D32-4C70-4A87-A574-DE91F4ECFBBD}" WorkUnitID="{68480AD3-C745-4E54-98EE-B29A5065CC84}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Event_SpotLight_Break" ID="{C7376353-60A4-4E3C-AACB-84157BE59C17}">
+							<ChildrenList>
+								<Action Name="" ID="{BF6B3484-BF6D-4A49-B632-654B3DC18968}" ShortID="95798745">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Sfx_SpotLight_Break" ID="{11D9F5E2-D1C6-4358-9146-9104E4605EC3}" WorkUnitID="{68480AD3-C745-4E54-98EE-B29A5065CC84}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Event_Wood_Squeak" ID="{D5FF204C-3013-4C40-92C6-925F2EA66B46}">
+							<ChildrenList>
+								<Action Name="" ID="{F874C779-FFFE-4BB8-B98D-5625A35C1C85}" ShortID="436558071">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Sfx_Wood_Squeak" ID="{B5F79A1E-F4F1-46E7-BD12-77A449114D7A}" WorkUnitID="{68480AD3-C745-4E54-98EE-B29A5065CC84}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Event_WoodDoor" ID="{43E5A23A-EEF6-47DD-ADA5-BF671436D082}">
+							<ChildrenList>
+								<Action Name="" ID="{A3876420-FDB1-4740-B285-95EB8BDB65CE}" ShortID="146754087">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Sfx_WoodDoor" ID="{D0A9A718-8D6B-4191-AA61-D864646EC01B}" WorkUnitID="{68480AD3-C745-4E54-98EE-B29A5065CC84}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Event_WoodDoor_Key" ID="{4F1C93B4-5B1D-4367-B6AD-DEA8C9F66C76}"/>
+						<Event Name="Event_Footsteps" ID="{BE438700-218A-40DC-BDA5-83C5EC06ADBA}">
+							<ChildrenList>
+								<Action Name="" ID="{B39ED4D6-3FB1-448B-ADD8-0A76EABDBDEF}" ShortID="7053228">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Sfx_Footsteps" ID="{2AF21CFE-A655-4D1C-876C-96C1DC2AAF73}" WorkUnitID="{68480AD3-C745-4E54-98EE-B29A5065CC84}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Music" ID="{A01C2F0A-C6D2-42A4-8321-E4124A182315}" ShortID="676811485">
+					<ChildrenList>
+						<Event Name="Music_Calm" ID="{D59CE8FB-1736-42DD-818E-6E97C7319985}">
+							<ChildrenList>
+								<Action Name="" ID="{3F873D76-FDF2-4BD4-86BF-40DAB2543AD6}" ShortID="659885449">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Music_Calm" ID="{426B418A-5943-4309-B842-A8E285646BD3}" WorkUnitID="{B991E678-0F1B-48BA-ABD4-BFA8EF587B58}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Event_Music_Danger" ID="{9ED43893-8284-4025-B384-6709CD2F45EB}">
+							<ChildrenList>
+								<Action Name="" ID="{C616504B-EA42-4333-8774-D18CA7E517A9}" ShortID="1072822912">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Music_Danger" ID="{FDA9DC98-12EA-4853-8D3D-580A96B7EAA9}" WorkUnitID="{B991E678-0F1B-48BA-ABD4-BFA8EF587B58}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Event_Music_Death" ID="{1AEEC120-F707-46F9-864E-4D8F85C94CF1}">
+							<ChildrenList>
+								<Action Name="" ID="{75A3ECD8-F4F3-4A84-A4B4-56201F4F1115}" ShortID="667006223">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Music_Death" ID="{823B1012-3E68-4B14-92D1-1A32DCCE549C}" WorkUnitID="{B991E678-0F1B-48BA-ABD4-BFA8EF587B58}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

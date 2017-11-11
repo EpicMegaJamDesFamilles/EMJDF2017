@@ -3,7 +3,7 @@
 	<States>
 		<WorkUnit Name="Default Work Unit" ID="{1061F995-FEBF-4197-ACC4-5F5C3FD4DF3D}" PersistMode="Standalone">
 			<ChildrenList>
-				<StateGroup Name="Footsptes" ID="{6695C97D-F367-433B-997D-81AF5AD05BF0}">
+				<StateGroup Name="Footsteps" ID="{6695C97D-F367-433B-997D-81AF5AD05BF0}">
 					<ChildrenList>
 						<State Name="None" ID="{0CBCF0FD-0946-4C10-BC0C-881CBDBA9BB5}"/>
 						<State Name="Concrete" ID="{FC21249D-944A-4020-8152-2A6CA025947A}"/>

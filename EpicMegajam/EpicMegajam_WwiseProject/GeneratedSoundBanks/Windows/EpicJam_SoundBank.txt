@@ -19,20 +19,23 @@ Event	ID	Name			Wwise Object Path	Notes
 	4223819591	Event_Footsteps			\Default Work Unit\Sfx 3D\Event_Footsteps	
 
 State Group	ID	Name			Wwise Object Path	Notes
-	1232817532	Footsptes			\Default Work Unit\Footsptes	
 	1461357257	Music_level_01			\Default Work Unit\Music_level_01	
+	2385628198	Footsteps			\Default Work Unit\Footsteps	
 
 State	ID	Name	State Group			Notes
-	748895195	None	Footsptes			
-	772299873	Grid	Footsptes			
-	841620460	Concrete	Footsptes			
-	2195636714	Dirt	Footsptes			
-	2412606308	Carpet	Footsptes			
-	2473969246	Metal	Footsptes			
 	748895195	None	Music_level_01			
 	779278001	Death	Music_level_01			
 	3753286132	Calm	Music_level_01			
 	4174463524	Danger	Music_level_01			
+	748895195	None	Footsteps			
+	772299873	Grid	Footsteps			
+	841620460	Concrete	Footsteps			
+	2195636714	Dirt	Footsteps			
+	2412606308	Carpet	Footsteps			
+	2473969246	Metal	Footsteps			
+
+Trigger	ID	Name			Wwise Object Path	Notes
+	776859962	Danger_End			\Default Work Unit\Danger_End	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	11643958	Stem_Theme Principal 3	D:\UnrealProject\EpicJam\EMJDF2017\EpicMegajam\EpicMegajam_WwiseProject\.cache\Windows\SFX\Stem_Theme Principal 3_F17FB28C.wem		\Interactive Music Hierarchy\EpicMegaJamMusic\Music_Calm\Music_Calm\Stem_Theme Principal 3\Stem_Theme Principal 3		3387008
@@ -165,6 +168,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	817981480	Sfx_Wood_Squeak_Rnd_10	D:\UnrealProject\EpicJam\EMJDF2017\EpicMegajam\EpicMegajam_WwiseProject\.cache\Windows\SFX\Sfx_Wood_Squeak_Rnd_10_1C9C67B2.wem		\Actor-Mixer Hierarchy\EpicMegaJamSound\Sfx\3D\Sfx_3D_01\Sfx_Wood_Squeak\Sfx_Wood_Squeak_Rnd_10		125476
 	818780867	Footsteps_Metal_Grid_Rnd_13	D:\UnrealProject\EpicJam\EMJDF2017\EpicMegajam\EpicMegajam_WwiseProject\.cache\Windows\SFX\Footsteps_Metal_Grid_Rnd_13_1C9C67B2.wem		\Actor-Mixer Hierarchy\EpicMegaJamSound\Sfx\3D\Sfx_3D_01\Sfx_Footsteps\Grid\Footsteps_Metal_Grid_Rnd_13		100208
 	819598292	Sfx_WoodDoor_Close_Rnd_01	D:\UnrealProject\EpicJam\EMJDF2017\EpicMegajam\EpicMegajam_WwiseProject\.cache\Windows\SFX\Sfx_WoodDoor_Close_Rnd_01_1C9C67B2.wem		\Actor-Mixer Hierarchy\EpicMegaJamSound\Sfx\3D\Sfx_3D_01\Sfx_WoodDoor\Sfx_WoodDoor_Close_Rnd_01		80496
+	823161926	Stem_Transition BPM Danger End	D:\UnrealProject\EpicJam\EMJDF2017\EpicMegajam\EpicMegajam_WwiseProject\.cache\Windows\SFX\Stem_Transition BPM Danger End_F17FB28C.wem		\Interactive Music Hierarchy\EpicMegaJamMusic\Music_Danger\Stem_Danger\Stem_Danger 2\Stem_Transition BPM Danger End		1543628
 	824441054	Sfx_Glass_Break_Rnd_05	D:\UnrealProject\EpicJam\EMJDF2017\EpicMegajam\EpicMegajam_WwiseProject\.cache\Windows\SFX\Sfx_Glass_Break_Rnd_05_1C9C67B2.wem		\Actor-Mixer Hierarchy\EpicMegaJamSound\Sfx\3D\Sfx_3D_01\Sfx_Glass_Break\Sfx_Glass_Break_Rnd_05		231904
 	825472309	Sfx_Wood_Squeak_Rnd_01	D:\UnrealProject\EpicJam\EMJDF2017\EpicMegajam\EpicMegajam_WwiseProject\.cache\Windows\SFX\Sfx_Wood_Squeak_Rnd_01_1C9C67B2.wem		\Actor-Mixer Hierarchy\EpicMegaJamSound\Sfx\3D\Sfx_3D_01\Sfx_Wood_Squeak\Sfx_Wood_Squeak_Rnd_01		161028
 	826298879	Sfx_Box_Impact_Rnd_04	D:\UnrealProject\EpicJam\EMJDF2017\EpicMegajam\EpicMegajam_WwiseProject\.cache\Windows\SFX\Sfx_Box_Impact_Rnd_04_1C9C67B2.wem		\Actor-Mixer Hierarchy\EpicMegaJamSound\Sfx\3D\Sfx_3D_01\Sfx_Box_Impact\Sfx_Box_Impact_Rnd_04		412768

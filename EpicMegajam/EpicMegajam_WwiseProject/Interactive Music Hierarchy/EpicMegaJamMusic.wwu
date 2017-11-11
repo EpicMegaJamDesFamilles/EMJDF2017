@@ -416,7 +416,6 @@
 													<PropertyList>
 														<Property Name="IsFolder" Type="bool" Value="True"/>
 													</PropertyList>
-													<ReferenceList/>
 													<TransitionInfo/>
 												</MusicTransition>
 											</TransitionList>
@@ -477,7 +476,6 @@
 													<PropertyList>
 														<Property Name="IsFolder" Type="bool" Value="True"/>
 													</PropertyList>
-													<ReferenceList/>
 													<TransitionInfo/>
 												</MusicTransition>
 											</TransitionList>
@@ -538,7 +536,6 @@
 													<PropertyList>
 														<Property Name="IsFolder" Type="bool" Value="True"/>
 													</PropertyList>
-													<ReferenceList/>
 													<TransitionInfo/>
 												</MusicTransition>
 											</TransitionList>
@@ -599,7 +596,6 @@
 													<PropertyList>
 														<Property Name="IsFolder" Type="bool" Value="True"/>
 													</PropertyList>
-													<ReferenceList/>
 													<TransitionInfo/>
 												</MusicTransition>
 											</TransitionList>
@@ -660,7 +656,6 @@
 													<PropertyList>
 														<Property Name="IsFolder" Type="bool" Value="True"/>
 													</PropertyList>
-													<ReferenceList/>
 													<TransitionInfo/>
 												</MusicTransition>
 											</TransitionList>
@@ -1389,7 +1384,7 @@
 							<ChildrenList>
 								<MusicSegment Name="Stem_Danger 2" ID="{BD44FCFB-5216-42E2-A17E-8E9C138A71D5}" ShortID="561075727">
 									<PropertyList>
-										<Property Name="EndPosition" Type="Real64" Value="32000"/>
+										<Property Name="EndPosition" Type="Real64" Value="40750"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -1430,6 +1425,42 @@
 																<Property Name="FadeOutMode" Type="int16" Value="0"/>
 															</PropertyList>
 															<AudioSourceRef Name="Stem_Danger 2" ID="{5CB75CDD-312B-4D63-AA15-9ADBD5653803}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+										<MusicTrack Name="Stem_Transition BPM Danger End" ID="{FF6C6ACF-6F8F-4D17-BC41-EBCF2C66B05D}" ShortID="709785789">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48788DB2-6AD1-41E8-88D5-9E63C46392A2}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Stem_Transition BPM Danger End" ID="{52ECA5B4-E30B-41EA-8D0A-28391EAA3568}" ShortID="823161926">
+													<Language>SFX</Language>
+													<AudioFile>Stem_Transition BPM Danger End.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{DD2B02DC-6D1B-4DA4-BDCA-FD88A4CB7AD4}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{AFFADEA3-2276-4B10-8495-EA5C13EC991B}">
+													<ClipList>
+														<MusicClip Name="Stem_Transition BPM Danger End" ID="{3BCF520E-CC43-4A99-B06D-B96D64FB8667}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="8750"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																<Property Name="PlayAt" Type="Real64" Value="32000"/>
+															</PropertyList>
+															<AudioSourceRef Name="Stem_Transition BPM Danger End" ID="{52ECA5B4-E30B-41EA-8D0A-28391EAA3568}"/>
 														</MusicClip>
 													</ClipList>
 												</MusicTrackSequence>
@@ -1640,6 +1671,15 @@
 							<TransitionInfo/>
 						</MusicTransition>
 					</TransitionList>
+					<StingerList>
+						<MusicStinger Name="" ID="{C0894F04-287C-450B-BC00-69B276256BE4}">
+							<PropertyList>
+								<Property Name="PlaySegmentAt" Type="int16" Value="7"/>
+							</PropertyList>
+							<TriggerRef Name="Danger_End" ID="{3869B858-4DB4-4533-A897-6F304BB85497}" WorkUnitID="{20AFFF6E-6B11-43F3-90BC-7C0042360AA9}"/>
+							<SegmentRef Name="Stem_Danger 2" ID="{BD44FCFB-5216-42E2-A17E-8E9C138A71D5}" WorkUnitID="{B991E678-0F1B-48BA-ABD4-BFA8EF587B58}"/>
+						</MusicStinger>
+					</StingerList>
 					<ArgumentList>
 						<ArgumentRef Name="Music_level_01" ID="{61BA8D82-9643-425C-98AC-30F9E3887A2A}"/>
 					</ArgumentList>
@@ -1753,7 +1793,7 @@
 																			</Point>
 																			<Point>
 																				<XPos>10.01703</XPos>
-																				<YPos>-0</YPos>
+																				<YPos>0</YPos>
 																				<Flags>37</Flags>
 																			</Point>
 																		</PointList>
@@ -1767,12 +1807,12 @@
 																		<PointList>
 																			<Point>
 																				<XPos>0</XPos>
-																				<YPos>-0</YPos>
+																				<YPos>0</YPos>
 																				<Flags>5</Flags>
 																			</Point>
 																			<Point>
 																				<XPos>10.01703</XPos>
-																				<YPos>-0</YPos>
+																				<YPos>0</YPos>
 																				<Flags>37</Flags>
 																			</Point>
 																		</PointList>
@@ -1872,7 +1912,7 @@
 																			</Point>
 																			<Point>
 																				<XPos>10.04189</XPos>
-																				<YPos>-0</YPos>
+																				<YPos>0</YPos>
 																				<Flags>37</Flags>
 																			</Point>
 																		</PointList>

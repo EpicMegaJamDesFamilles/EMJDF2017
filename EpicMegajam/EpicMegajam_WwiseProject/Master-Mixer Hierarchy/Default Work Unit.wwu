@@ -52,6 +52,13 @@
 							</ChildrenList>
 						</Bus>
 						<Bus Name="Musics" ID="{79576533-613E-4D1F-818A-818379FC8845}">
+							<PropertyList>
+								<Property Name="BusVolume" Type="Real64">
+									<ValueList>
+										<Value>-15</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Effect1" PluginName="Wwise Gain" CompanyID="0" PluginID="139" PluginType="3">
 									<ObjectRef Name="Mixing_Music" ID="{0733191F-B7E0-47CA-AA22-75689EDAC4E5}" WorkUnitID="{80B8CBF7-5D7C-4859-9430-26631DE4E91D}"/>
@@ -61,6 +68,20 @@
 								<Bus Name="Music_01" ID="{458A0C06-1FA8-4D1A-9BAA-93C5387A2C04}"/>
 							</ChildrenList>
 						</Bus>
+						<AuxBus Name="Rev_Studio" ID="{380C242A-024B-4286-8DB7-E518B85216D8}">
+							<ReferenceList>
+								<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+									<ObjectRef Name="Room_Small" ID="{577F1466-A63B-47F7-98BD-C56E433F8B5D}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+								</Reference>
+							</ReferenceList>
+						</AuxBus>
+						<AuxBus Name="Rev_LargeHall" ID="{66E6B9F5-B2A1-46E9-9743-A1F5B19D1108}">
+							<ReferenceList>
+								<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+									<ObjectRef Name="Hall_Large_Bright" ID="{CB602948-2D1D-4977-A8D5-378184293E80}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+								</Reference>
+							</ReferenceList>
+						</AuxBus>
 					</ChildrenList>
 				</Bus>
 				<Bus Name="Master Secondary Bus" ID="{D2E0BC7E-7B3F-4FFE-A670-FAE02761B631}"/>
