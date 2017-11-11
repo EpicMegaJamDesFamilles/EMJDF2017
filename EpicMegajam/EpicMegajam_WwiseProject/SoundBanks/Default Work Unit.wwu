@@ -1,6 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{CC7A2E42-9671-4B59-A4BE-88029CA89B06}" SchemaVersion="80">
 	<SoundBanks>
-		<WorkUnit Name="Default Work Unit" ID="{CC7A2E42-9671-4B59-A4BE-88029CA89B06}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{CC7A2E42-9671-4B59-A4BE-88029CA89B06}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="EpicJam_SoundBank" ID="{6B64E30B-2B0E-4641-A08B-01445740FC44}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Music" ID="{A01C2F0A-C6D2-42A4-8321-E4124A182315}" WorkUnitID="{B319B8D8-C543-4385-A9B5-F7D40FDF3603}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Amb 3D" ID="{07FFF97D-E722-4340-85B1-53618FCB1988}" WorkUnitID="{B319B8D8-C543-4385-A9B5-F7D40FDF3603}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Sfx 3D" ID="{E80AF23B-3CE2-48D9-B420-BFB98CF1495C}" WorkUnitID="{B319B8D8-C543-4385-A9B5-F7D40FDF3603}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Reverberation" ID="{08ED0599-D2EB-43B7-948B-1E118989DE58}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Rev_Studio" ID="{380C242A-024B-4286-8DB7-E518B85216D8}" WorkUnitID="{48788DB2-6AD1-41E8-88D5-9E63C46392A2}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Rev_LargeHall" ID="{66E6B9F5-B2A1-46E9-9743-A1F5B19D1108}" WorkUnitID="{48788DB2-6AD1-41E8-88D5-9E63C46392A2}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundBanks>
 </WwiseDocument>

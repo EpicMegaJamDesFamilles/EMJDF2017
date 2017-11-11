@@ -3,26 +3,28 @@
 	<Platform GUID="{A45F6AD4-04EF-47F0-B011-C7E1A8960965}">
 		<Banks>
 			<Language ID="393239870">
-				<File Name="EpicJam_SoundBank" Hash="1180895083" Timestamp="131546423922031039"/>
-				<File Name="Init" Hash="3691104253" Timestamp="131546423922131123"/>
+				<File Name="EpicJam_SoundBank" Hash="3955724188" Timestamp="131546613841888673"/>
+				<File Name="Init" Hash="3025219725" Timestamp="131546613714083588"/>
+				<File Name="Reverberation" Hash="3655302825" Timestamp="131546613714043557"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="2754622988" Timestamp="131546423922161130"/>
+				<File Name="" Hash="1007685800" Timestamp="131546613842018764"/>
 			</Language>
 		</XMLInfo>
 	</Platform>
 	<Platform GUID="{A7321020-FDE3-4FF9-854C-60567D179E49}">
 		<Banks>
 			<Language ID="393239870">
-				<File Name="EpicJam_SoundBank" Hash="1180895083" Timestamp="131546423914115769"/>
-				<File Name="Init" Hash="4222868171" Timestamp="131546423914946326"/>
+				<File Name="EpicJam_SoundBank" Hash="3955724188" Timestamp="131546613815160882"/>
+				<File Name="Init" Hash="49671259" Timestamp="131546613713713350"/>
+				<File Name="Reverberation" Hash="3655302825" Timestamp="131546613713673357"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="2371473810" Timestamp="131546423915356600"/>
+				<File Name="" Hash="3999553050" Timestamp="131546613815280958"/>
 			</Language>
 		</XMLInfo>
 	</Platform>
