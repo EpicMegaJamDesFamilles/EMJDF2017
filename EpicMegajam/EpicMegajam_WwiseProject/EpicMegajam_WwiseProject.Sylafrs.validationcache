@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ValidationCache Version="1" SchemaVersion="80">
 	<ValidationCacheItem File="D:\DONNEES\Programmation\Projects\UnrealEngine\EMJDF2017\EpicMegajam\EpicMegajam_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="578277525" DateHigh="30628820"/>
-	<ValidationCacheItem File="D:\DONNEES\Programmation\Projects\UnrealEngine\EMJDF2017\EpicMegajam\EpicMegajam_WwiseProject\Actor-Mixer Hierarchy\EpicMegaJamSound.wwu" DateLow="578337615" DateHigh="30628820"/>
+	<ValidationCacheItem File="D:\DONNEES\Programmation\Projects\UnrealEngine\EMJDF2017\EpicMegajam\EpicMegajam_WwiseProject\Actor-Mixer Hierarchy\EpicMegaJamSound.wwu" DateLow="1675219742" DateHigh="30628838"/>
 	<ValidationCacheItem File="D:\DONNEES\Programmation\Projects\UnrealEngine\EMJDF2017\EpicMegajam\EpicMegajam_WwiseProject\Actor-Mixer Hierarchy\Factory Crankcase REV.wwu" DateLow="578432946" DateHigh="30628820"/>
 	<ValidationCacheItem File="D:\DONNEES\Programmation\Projects\UnrealEngine\EMJDF2017\EpicMegajam\EpicMegajam_WwiseProject\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects.wwu" DateLow="578217433" DateHigh="30628820"/>
 	<ValidationCacheItem File="D:\DONNEES\Programmation\Projects\UnrealEngine\EMJDF2017\EpicMegajam\EpicMegajam_WwiseProject\Actor-Mixer Hierarchy\Factory Synth One.wwu" DateLow="578039331" DateHigh="30628820"/>
@@ -24,13 +24,13 @@
 	<ValidationCacheItem File="D:\DONNEES\Programmation\Projects\UnrealEngine\EMJDF2017\EpicMegajam\EpicMegajam_WwiseProject\Effects\Factory iZotope Multiband Distortion.wwu" DateLow="578798336" DateHigh="30628820"/>
 	<ValidationCacheItem File="D:\DONNEES\Programmation\Projects\UnrealEngine\EMJDF2017\EpicMegajam\EpicMegajam_WwiseProject\Effects\Factory iZotope Singleband Distortion.wwu" DateLow="578888464" DateHigh="30628820"/>
 	<ValidationCacheItem File="D:\DONNEES\Programmation\Projects\UnrealEngine\EMJDF2017\EpicMegajam\EpicMegajam_WwiseProject\Effects\Factory McDSP Effects.wwu" DateLow="578948561" DateHigh="30628820"/>
-	<ValidationCacheItem File="D:\DONNEES\Programmation\Projects\UnrealEngine\EMJDF2017\EpicMegajam\EpicMegajam_WwiseProject\EpicMegajam_WwiseProject.Sylafrs.wsettings" DateLow="660518405" DateHigh="30628820"/>
+	<ValidationCacheItem File="D:\DONNEES\Programmation\Projects\UnrealEngine\EMJDF2017\EpicMegajam\EpicMegajam_WwiseProject\EpicMegajam_WwiseProject.Sylafrs.wsettings" DateLow="2285541338" DateHigh="30628838"/>
 	<ValidationCacheItem File="D:\DONNEES\Programmation\Projects\UnrealEngine\EMJDF2017\EpicMegajam\EpicMegajam_WwiseProject\EpicMegajam_WwiseProject.wproj" DateLow="577879241" DateHigh="30628820"/>
-	<ValidationCacheItem File="D:\DONNEES\Programmation\Projects\UnrealEngine\EMJDF2017\EpicMegajam\EpicMegajam_WwiseProject\Events\Default Work Unit.wwu" DateLow="293290863" DateHigh="30628828"/>
+	<ValidationCacheItem File="D:\DONNEES\Programmation\Projects\UnrealEngine\EMJDF2017\EpicMegajam\EpicMegajam_WwiseProject\Events\Default Work Unit.wwu" DateLow="1675083553" DateHigh="30628838"/>
 	<ValidationCacheItem File="D:\DONNEES\Programmation\Projects\UnrealEngine\EMJDF2017\EpicMegajam\EpicMegajam_WwiseProject\Game Parameters\Default Work Unit.wwu" DateLow="579048720" DateHigh="30628820"/>
 	<ValidationCacheItem File="D:\DONNEES\Programmation\Projects\UnrealEngine\EMJDF2017\EpicMegajam\EpicMegajam_WwiseProject\Game Parameters\Factory SoundSeed Air Game Syncs.wwu" DateLow="579233995" DateHigh="30628820"/>
 	<ValidationCacheItem File="D:\DONNEES\Programmation\Projects\UnrealEngine\EMJDF2017\EpicMegajam\EpicMegajam_WwiseProject\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="579554487" DateHigh="30628820"/>
-	<ValidationCacheItem File="D:\DONNEES\Programmation\Projects\UnrealEngine\EMJDF2017\EpicMegajam\EpicMegajam_WwiseProject\Interactive Music Hierarchy\EpicMegaJamMusic.wwu" DateLow="579684689" DateHigh="30628820"/>
+	<ValidationCacheItem File="D:\DONNEES\Programmation\Projects\UnrealEngine\EMJDF2017\EpicMegajam\EpicMegajam_WwiseProject\Interactive Music Hierarchy\EpicMegaJamMusic.wwu" DateLow="1675153663" DateHigh="30628838"/>
 	<ValidationCacheItem File="D:\DONNEES\Programmation\Projects\UnrealEngine\EMJDF2017\EpicMegajam\EpicMegajam_WwiseProject\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="578567971" DateHigh="30628820"/>
 	<ValidationCacheItem File="D:\DONNEES\Programmation\Projects\UnrealEngine\EMJDF2017\EpicMegajam\EpicMegajam_WwiseProject\Mixing Sessions\Default Work Unit.wwu" DateLow="579494420" DateHigh="30628820"/>
 	<ValidationCacheItem File="D:\DONNEES\Programmation\Projects\UnrealEngine\EMJDF2017\EpicMegajam\EpicMegajam_WwiseProject\Modulators\Default Work Unit.wwu" DateLow="579354179" DateHigh="30628820"/>
@@ -39,8 +39,8 @@
 	<ValidationCacheItem File="D:\DONNEES\Programmation\Projects\UnrealEngine\EMJDF2017\EpicMegajam\EpicMegajam_WwiseProject\Queries\Factory Queries.wwu" DateLow="579599556" DateHigh="30628820"/>
 	<ValidationCacheItem File="D:\DONNEES\Programmation\Projects\UnrealEngine\EMJDF2017\EpicMegajam\EpicMegajam_WwiseProject\SoundBanks\Default Work Unit.wwu" DateLow="579309110" DateHigh="30628820"/>
 	<ValidationCacheItem File="D:\DONNEES\Programmation\Projects\UnrealEngine\EMJDF2017\EpicMegajam\EpicMegajam_WwiseProject\Soundcaster Sessions\Default Work Unit.wwu" DateLow="578998633" DateHigh="30628820"/>
-	<ValidationCacheItem File="D:\DONNEES\Programmation\Projects\UnrealEngine\EMJDF2017\EpicMegajam\EpicMegajam_WwiseProject\States\Default Work Unit.wwu" DateLow="579198971" DateHigh="30628820"/>
-	<ValidationCacheItem File="D:\DONNEES\Programmation\Projects\UnrealEngine\EMJDF2017\EpicMegajam\EpicMegajam_WwiseProject\Switches\Default Work Unit.wwu" DateLow="578367679" DateHigh="30628820"/>
+	<ValidationCacheItem File="D:\DONNEES\Programmation\Projects\UnrealEngine\EMJDF2017\EpicMegajam\EpicMegajam_WwiseProject\States\Default Work Unit.wwu" DateLow="1675108594" DateHigh="30628838"/>
+	<ValidationCacheItem File="D:\DONNEES\Programmation\Projects\UnrealEngine\EMJDF2017\EpicMegajam\EpicMegajam_WwiseProject\Switches\Default Work Unit.wwu" DateLow="1465008925" DateHigh="30628835"/>
 	<ValidationCacheItem File="D:\DONNEES\Programmation\Projects\UnrealEngine\EMJDF2017\EpicMegajam\EpicMegajam_WwiseProject\Triggers\Default Work Unit.wwu" DateLow="579574520" DateHigh="30628820"/>
 	<ValidationCacheItem File="D:\DONNEES\Programmation\Projects\UnrealEngine\EMJDF2017\EpicMegajam\EpicMegajam_WwiseProject\Virtual Acoustics\Default Work Unit.wwu" DateLow="579434305" DateHigh="30628820"/>
 	<ValidationCacheItem File="D:\DONNEES\Programmation\Projects\UnrealEngine\EMJDF2017\EpicMegajam\EpicMegajam_WwiseProject\Virtual Acoustics\Factory Reflect Acoustic Textures.wwu" DateLow="579619595" DateHigh="30628820"/>

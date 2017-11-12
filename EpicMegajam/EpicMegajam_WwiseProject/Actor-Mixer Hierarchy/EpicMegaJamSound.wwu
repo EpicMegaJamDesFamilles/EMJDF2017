@@ -2793,7 +2793,7 @@
 												</RandomSequenceContainer>
 											</ChildrenList>
 											<GroupingInfo>
-												<GroupRef Name="Footsteps" ID="{6695C97D-F367-433B-997D-81AF5AD05BF0}"/>
+												<GroupRef Name="State_Ground" ID="{6695C97D-F367-433B-997D-81AF5AD05BF0}"/>
 												<DefaultSwitchRef Name="Concrete" ID="{FC21249D-944A-4020-8152-2A6CA025947A}"/>
 												<GroupingBehaviorList>
 													<GroupingBehavior>

@@ -221,61 +221,25 @@
 				</Folder>
 				<Folder Name="Music" ID="{A01C2F0A-C6D2-42A4-8321-E4124A182315}" ShortID="676811485">
 					<ChildrenList>
-						<Event Name="Event_Music_Calm" ID="{D59CE8FB-1736-42DD-818E-6E97C7319985}">
+						<Event Name="Event_Game_Starts" ID="{D59CE8FB-1736-42DD-818E-6E97C7319985}">
 							<ChildrenList>
-								<Action Name="" ID="{0711F400-E286-4AAE-B8FB-465209C3B13E}" ShortID="645006733">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="3"/>
-									</PropertyList>
-									<ReferenceList/>
-								</Action>
 								<Action Name="" ID="{3F873D76-FDF2-4BD4-86BF-40DAB2543AD6}" ShortID="659885449">
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="1"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Music_Calm" ID="{426B418A-5943-4309-B842-A8E285646BD3}" WorkUnitID="{B991E678-0F1B-48BA-ABD4-BFA8EF587B58}"/>
+											<ObjectRef Name="Music_Level_01" ID="{307162AB-FD8C-4CBA-BD46-99E3F1493DB1}" WorkUnitID="{B991E678-0F1B-48BA-ABD4-BFA8EF587B58}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Event_Music_Danger" ID="{9ED43893-8284-4025-B384-6709CD2F45EB}">
-							<ChildrenList>
-								<Action Name="" ID="{98B4D1F9-8603-4FAC-982C-9F72286090B8}" ShortID="820674056">
+								<Action Name="" ID="{0D39E1A4-787E-4B6F-AF3D-D9D36E9B47D2}" ShortID="603514978">
 									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="3"/>
-									</PropertyList>
-									<ReferenceList/>
-								</Action>
-								<Action Name="" ID="{C616504B-EA42-4333-8774-D18CA7E517A9}" ShortID="1072822912">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="1"/>
+										<Property Name="ActionType" Type="int16" Value="22"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Music_Danger" ID="{FDA9DC98-12EA-4853-8D3D-580A96B7EAA9}" WorkUnitID="{B991E678-0F1B-48BA-ABD4-BFA8EF587B58}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Event_Music_Death" ID="{1AEEC120-F707-46F9-864E-4D8F85C94CF1}">
-							<ChildrenList>
-								<Action Name="" ID="{CCAEE5DF-AA69-4FD6-BD73-5093E1ECE655}" ShortID="501502355">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="3"/>
-									</PropertyList>
-									<ReferenceList/>
-								</Action>
-								<Action Name="" ID="{75A3ECD8-F4F3-4A84-A4B4-56201F4F1115}" ShortID="667006223">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="1"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Music_Death" ID="{823B1012-3E68-4B14-92D1-1A32DCCE549C}" WorkUnitID="{B991E678-0F1B-48BA-ABD4-BFA8EF587B58}"/>
+											<ObjectRef Name="Calm" ID="{5DB6282A-6BD2-44D0-98AA-097546EEBDF3}" WorkUnitID="{1061F995-FEBF-4197-ACC4-5F5C3FD4DF3D}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

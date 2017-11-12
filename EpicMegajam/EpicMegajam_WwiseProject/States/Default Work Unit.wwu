@@ -3,7 +3,7 @@
 	<States>
 		<WorkUnit Name="Default Work Unit" ID="{1061F995-FEBF-4197-ACC4-5F5C3FD4DF3D}" PersistMode="Standalone">
 			<ChildrenList>
-				<StateGroup Name="Footsteps" ID="{6695C97D-F367-433B-997D-81AF5AD05BF0}">
+				<StateGroup Name="State_Ground" ID="{6695C97D-F367-433B-997D-81AF5AD05BF0}">
 					<ChildrenList>
 						<State Name="None" ID="{0CBCF0FD-0946-4C10-BC0C-881CBDBA9BB5}"/>
 						<State Name="Concrete" ID="{FC21249D-944A-4020-8152-2A6CA025947A}"/>
@@ -13,7 +13,7 @@
 						<State Name="Grid" ID="{13E31F1A-8FF3-4C7C-8C98-F1CC18DD3400}"/>
 					</ChildrenList>
 				</StateGroup>
-				<StateGroup Name="Music_level_01" ID="{61BA8D82-9643-425C-98AC-30F9E3887A2A}">
+				<StateGroup Name="State_Tension" ID="{61BA8D82-9643-425C-98AC-30F9E3887A2A}">
 					<ChildrenList>
 						<State Name="None" ID="{95ADD2A4-9530-426C-9BF7-5B1401D320CF}"/>
 						<State Name="Calm" ID="{5DB6282A-6BD2-44D0-98AA-097546EEBDF3}"/>

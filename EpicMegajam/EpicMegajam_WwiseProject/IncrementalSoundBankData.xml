@@ -3,14 +3,14 @@
 	<Platform GUID="{A45F6AD4-04EF-47F0-B011-C7E1A8960965}">
 		<Banks>
 			<Language ID="393239870">
-				<File Name="EpicJam_SoundBank" Hash="3692683819" Timestamp="131549815392428006"/>
-				<File Name="Init" Hash="513061413" Timestamp="131549815392513136"/>
+				<File Name="EpicJam_SoundBank" Hash="3489472238" Timestamp="131549860686410079"/>
+				<File Name="Init" Hash="4754403" Timestamp="131549860686465166"/>
 				<File Name="Reverberation" Hash="3239297080" Timestamp="131549780483878789"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="3475644844" Timestamp="131549815392548326"/>
+				<File Name="" Hash="1824487219" Timestamp="131549860686480184"/>
 			</Language>
 		</XMLInfo>
 	</Platform>
