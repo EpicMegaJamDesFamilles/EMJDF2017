@@ -30,6 +30,7 @@
 				<Event Id="4223819591" Name="Event_Footsteps" ObjectPath="\Events\Default Work Unit\Sfx 3D\Event_Footsteps"/>
 				<Event Id="463474510" Name="Event_Glass_Break" ObjectPath="\Events\Default Work Unit\Sfx 3D\Event_Glass_Break"/>
 				<Event Id="3754565910" Name="Event_LightDown" ObjectPath="\Events\Default Work Unit\Sfx 3D\Event_LightDown"/>
+				<Event Id="1489026383" Name="Event_Music_Calm" ObjectPath="\Events\Default Work Unit\Music\Event_Music_Calm"/>
 				<Event Id="1799158039" Name="Event_Music_Danger" ObjectPath="\Events\Default Work Unit\Music\Event_Music_Danger"/>
 				<Event Id="1265288892" Name="Event_Music_Death" ObjectPath="\Events\Default Work Unit\Music\Event_Music_Death"/>
 				<Event Id="214008310" Name="Event_Neon" ObjectPath="\Events\Default Work Unit\Sfx 3D\Event_Neon"/>
@@ -38,7 +39,6 @@
 				<Event Id="1987296254" Name="Event_Wood_Squeak" ObjectPath="\Events\Default Work Unit\Sfx 3D\Event_Wood_Squeak"/>
 				<Event Id="3036832861" Name="Event_WoodDoor" ObjectPath="\Events\Default Work Unit\Sfx 3D\Event_WoodDoor"/>
 				<Event Id="79624557" Name="Event_WoodDoor_Key" ObjectPath="\Events\Default Work Unit\Sfx 3D\Event_WoodDoor_Key"/>
-				<Event Id="4081526380" Name="Music_Calm" ObjectPath="\Events\Default Work Unit\Music\Music_Calm"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="11643958" Language="SFX">

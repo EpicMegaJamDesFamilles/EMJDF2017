@@ -6,6 +6,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	463474510	Event_Glass_Break			\Default Work Unit\Sfx 3D\Event_Glass_Break	
 	1265288892	Event_Music_Death			\Default Work Unit\Music\Event_Music_Death	
 	1355596522	Event_Platform_Movement_Loop			\Default Work Unit\Sfx 3D\Event_Platform_Movement_Loop	
+	1489026383	Event_Music_Calm			\Default Work Unit\Music\Event_Music_Calm	
 	1799158039	Event_Music_Danger			\Default Work Unit\Music\Event_Music_Danger	
 	1987296254	Event_Wood_Squeak			\Default Work Unit\Sfx 3D\Event_Wood_Squeak	
 	2106530809	Event_Amb_Monster			\Default Work Unit\Amb 3D\Event_Amb_Monster	
@@ -15,7 +16,6 @@ Event	ID	Name			Wwise Object Path	Notes
 	3754565910	Event_LightDown			\Default Work Unit\Sfx 3D\Event_LightDown	
 	3795641405	Event_Amb_Cable_Squeak			\Default Work Unit\Amb 3D\Event_Amb_Cable_Squeak	
 	3962337639	Event_Amb_FlashLight			\Default Work Unit\Amb 3D\Event_Amb_FlashLight	
-	4081526380	Music_Calm			\Default Work Unit\Music\Music_Calm	
 	4223819591	Event_Footsteps			\Default Work Unit\Sfx 3D\Event_Footsteps	
 
 State Group	ID	Name			Wwise Object Path	Notes

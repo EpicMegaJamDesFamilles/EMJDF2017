@@ -49,7 +49,7 @@ Auxiliary Bus	ID	Name			Wwise Object Path	Notes
 Effect plug-ins	ID	Name	Type				Notes
 	598674443	Mixing_Music	Wwise Gain			
 	1191765329	Mixing_Ambiances	Wwise Gain			
+	1990128658	Room_Medium	Wwise RoomVerb			
 	2992357703	Mixing_Sfx	Wwise Gain			
-	2995775460	Room_Small	Wwise RoomVerb			
 	3701691487	Hall_Large_Bright	Wwise RoomVerb			
 
