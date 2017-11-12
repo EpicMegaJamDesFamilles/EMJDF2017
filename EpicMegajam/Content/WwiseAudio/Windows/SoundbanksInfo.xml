@@ -1,0 +1,728 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="125">
+	<RootPaths>
+		<ProjectRoot>D:\DONNEES\Programmation\Projects\UnrealEngine\EMJDF2017\EpicMegajam\EpicMegajam_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>D:\DONNEES\Programmation\Projects\UnrealEngine\EMJDF2017\EpicMegajam\EpicMegajam_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>D:\DONNEES\Programmation\Projects\UnrealEngine\EMJDF2017\EpicMegajam\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>D:\DONNEES\Programmation\Projects\UnrealEngine\EMJDF2017\EpicMegajam\EpicMegajam_WwiseProject\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="305028971" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Reverberation</ObjectPath>
+			<ShortName>Reverberation</ShortName>
+			<Path>Reverberation.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="1223543420" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\EpicJam_SoundBank</ObjectPath>
+			<ShortName>EpicJam_SoundBank</ShortName>
+			<Path>EpicJam_SoundBank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3795641405" Name="Event_Amb_Cable_Squeak" ObjectPath="\Events\Default Work Unit\Amb 3D\Event_Amb_Cable_Squeak"/>
+				<Event Id="3962337639" Name="Event_Amb_FlashLight" ObjectPath="\Events\Default Work Unit\Amb 3D\Event_Amb_FlashLight"/>
+				<Event Id="2106530809" Name="Event_Amb_Monster" ObjectPath="\Events\Default Work Unit\Amb 3D\Event_Amb_Monster"/>
+				<Event Id="2170606322" Name="Event_Box_Impact" ObjectPath="\Events\Default Work Unit\Sfx 3D\Event_Box_Impact"/>
+				<Event Id="182728766" Name="Event_Box_Loop" ObjectPath="\Events\Default Work Unit\Sfx 3D\Event_Box_Loop"/>
+				<Event Id="2808564553" Name="Event_Door_Beep" ObjectPath="\Events\Default Work Unit\Sfx 3D\Event_Door_Beep"/>
+				<Event Id="4223819591" Name="Event_Footsteps" ObjectPath="\Events\Default Work Unit\Sfx 3D\Event_Footsteps"/>
+				<Event Id="463474510" Name="Event_Glass_Break" ObjectPath="\Events\Default Work Unit\Sfx 3D\Event_Glass_Break"/>
+				<Event Id="3754565910" Name="Event_LightDown" ObjectPath="\Events\Default Work Unit\Sfx 3D\Event_LightDown"/>
+				<Event Id="1799158039" Name="Event_Music_Danger" ObjectPath="\Events\Default Work Unit\Music\Event_Music_Danger"/>
+				<Event Id="1265288892" Name="Event_Music_Death" ObjectPath="\Events\Default Work Unit\Music\Event_Music_Death"/>
+				<Event Id="214008310" Name="Event_Neon" ObjectPath="\Events\Default Work Unit\Sfx 3D\Event_Neon"/>
+				<Event Id="1355596522" Name="Event_Platform_Movement_Loop" ObjectPath="\Events\Default Work Unit\Sfx 3D\Event_Platform_Movement_Loop"/>
+				<Event Id="236088390" Name="Event_SpotLight_Break" ObjectPath="\Events\Default Work Unit\Sfx 3D\Event_SpotLight_Break"/>
+				<Event Id="1987296254" Name="Event_Wood_Squeak" ObjectPath="\Events\Default Work Unit\Sfx 3D\Event_Wood_Squeak"/>
+				<Event Id="3036832861" Name="Event_WoodDoor" ObjectPath="\Events\Default Work Unit\Sfx 3D\Event_WoodDoor"/>
+				<Event Id="79624557" Name="Event_WoodDoor_Key" ObjectPath="\Events\Default Work Unit\Sfx 3D\Event_WoodDoor_Key"/>
+				<Event Id="4081526380" Name="Music_Calm" ObjectPath="\Events\Default Work Unit\Music\Music_Calm"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="11643958" Language="SFX">
+					<ShortName>Stem_Theme Principal 3.wav</ShortName>
+					<Path>SFX\Stem_Theme Principal 3_F17FB28C.wem</Path>
+				</File>
+				<File Id="17816796" Language="SFX">
+					<ShortName>Footsteps_Dirt_Rnd_06.wav</ShortName>
+					<Path>SFX\Footsteps_Dirt_Rnd_06_1C9C67B2.wem</Path>
+				</File>
+				<File Id="31600490" Language="SFX">
+					<ShortName>Stem_Calme 4.wav</ShortName>
+					<Path>SFX\Stem_Calme 4_F17FB28C.wem</Path>
+				</File>
+				<File Id="35842973" Language="SFX">
+					<ShortName>Footsteps_Concrete_Rnd_11.wav</ShortName>
+					<Path>SFX\Footsteps_Concrete_Rnd_11_1C9C67B2.wem</Path>
+				</File>
+				<File Id="35959284" Language="SFX">
+					<ShortName>Sfx_Wood_Squeak_Rnd_16.wav</ShortName>
+					<Path>SFX\Sfx_Wood_Squeak_Rnd_16_1C9C67B2.wem</Path>
+				</File>
+				<File Id="46604597" Language="SFX">
+					<ShortName>Sfx_Wood_Squeak_Rnd_11.wav</ShortName>
+					<Path>SFX\Sfx_Wood_Squeak_Rnd_11_1C9C67B2.wem</Path>
+				</File>
+				<File Id="47319532" Language="SFX">
+					<ShortName>Sfx_SpotLight_Break_Rnd_04.wav</ShortName>
+					<Path>SFX\Sfx_SpotLight_Break_Rnd_04_1C9C67B2.wem</Path>
+				</File>
+				<File Id="62131619" Language="SFX">
+					<ShortName>Sfx_Light_Down_Rnd_02.wav</ShortName>
+					<Path>SFX\Sfx_Light_Down_Rnd_02_1C9C67B2.wem</Path>
+				</File>
+				<File Id="63535195" Language="SFX">
+					<ShortName>Sfx_Glass_Break_Rnd_03.wav</ShortName>
+					<Path>SFX\Sfx_Glass_Break_Rnd_03_1C9C67B2.wem</Path>
+				</File>
+				<File Id="65736151" Language="SFX">
+					<ShortName>Amb_Cable_Squeak_Rnd_01.wav</ShortName>
+					<Path>SFX\Amb_Cable_Squeak_Rnd_01_1C9C67B2.wem</Path>
+				</File>
+				<File Id="70613142" Language="SFX">
+					<ShortName>Footsteps_Metal_Rnd_06.wav</ShortName>
+					<Path>SFX\Footsteps_Metal_Rnd_06_1C9C67B2.wem</Path>
+				</File>
+				<File Id="71137798" Language="SFX">
+					<ShortName>Sfx_Box_Impact_Rnd_02.wav</ShortName>
+					<Path>SFX\Sfx_Box_Impact_Rnd_02_1C9C67B2.wem</Path>
+				</File>
+				<File Id="86677821" Language="SFX">
+					<ShortName>Footsteps_Dirt_Rnd_14.wav</ShortName>
+					<Path>SFX\Footsteps_Dirt_Rnd_14_1C9C67B2.wem</Path>
+				</File>
+				<File Id="96700875" Language="SFX">
+					<ShortName>Footsteps_Dirt_Rnd_15.wav</ShortName>
+					<Path>SFX\Footsteps_Dirt_Rnd_15_1C9C67B2.wem</Path>
+				</File>
+				<File Id="102690149" Language="SFX">
+					<ShortName>Sfx_Wood_Squeak_Rnd_05.wav</ShortName>
+					<Path>SFX\Sfx_Wood_Squeak_Rnd_05_1C9C67B2.wem</Path>
+				</File>
+				<File Id="106458740" Language="SFX">
+					<ShortName>Footsteps_Dirt_Rnd_10.wav</ShortName>
+					<Path>SFX\Footsteps_Dirt_Rnd_10_1C9C67B2.wem</Path>
+				</File>
+				<File Id="109099980" Language="SFX">
+					<ShortName>Sfx_Box_Loop.wav</ShortName>
+					<Path>SFX\Sfx_Box_Loop_F17FB28C.wem</Path>
+				</File>
+				<File Id="110167742" Language="SFX">
+					<ShortName>Amb_Monster_Rnd_02.wav</ShortName>
+					<Path>SFX\Amb_Monster_Rnd_02_1C9C67B2.wem</Path>
+				</File>
+				<File Id="111755120" Language="SFX">
+					<ShortName>Footsteps_Concrete_Rnd_12.wav</ShortName>
+					<Path>SFX\Footsteps_Concrete_Rnd_12_1C9C67B2.wem</Path>
+				</File>
+				<File Id="123092986" Language="SFX">
+					<ShortName>Sfx_Wood_Squeak_Rnd_08.wav</ShortName>
+					<Path>SFX\Sfx_Wood_Squeak_Rnd_08_1C9C67B2.wem</Path>
+				</File>
+				<File Id="126958363" Language="SFX">
+					<ShortName>Amb_Monster_Rnd_05.wav</ShortName>
+					<Path>SFX\Amb_Monster_Rnd_05_1C9C67B2.wem</Path>
+				</File>
+				<File Id="139239491" Language="SFX">
+					<ShortName>Sfx_Platform_Movement_End.wav</ShortName>
+					<Path>SFX\Sfx_Platform_Movement_End_1C9C67B2.wem</Path>
+				</File>
+				<File Id="142460477" Language="SFX">
+					<ShortName>Sfx_Wood_Squeak_Rnd_13.wav</ShortName>
+					<Path>SFX\Sfx_Wood_Squeak_Rnd_13_1C9C67B2.wem</Path>
+				</File>
+				<File Id="145835501" Language="SFX">
+					<ShortName>Footsteps_Metal_Rnd_07.wav</ShortName>
+					<Path>SFX\Footsteps_Metal_Rnd_07_1C9C67B2.wem</Path>
+				</File>
+				<File Id="149961582" Language="SFX">
+					<ShortName>Sfx_Platform_Movement_Loop.wav</ShortName>
+					<Path>SFX\Sfx_Platform_Movement_Loop_F17FB28C.wem</Path>
+				</File>
+				<File Id="152680865" Language="SFX">
+					<ShortName>Amb_Flash_Light_Rnd_08.wav</ShortName>
+					<Path>SFX\Amb_Flash_Light_Rnd_08_1C9C67B2.wem</Path>
+				</File>
+				<File Id="163496668" Language="SFX">
+					<ShortName>Amb_Cable_Squeak_Rnd_03.wav</ShortName>
+					<Path>SFX\Amb_Cable_Squeak_Rnd_03_1C9C67B2.wem</Path>
+				</File>
+				<File Id="165656036" Language="SFX">
+					<ShortName>Footsteps_Metal_Grid_Rnd_04.wav</ShortName>
+					<Path>SFX\Footsteps_Metal_Grid_Rnd_04_1C9C67B2.wem</Path>
+				</File>
+				<File Id="177627559" Language="SFX">
+					<ShortName>Sfx_Glass_Break_Rnd_02.wav</ShortName>
+					<Path>SFX\Sfx_Glass_Break_Rnd_02_1C9C67B2.wem</Path>
+				</File>
+				<File Id="197686071" Language="SFX">
+					<ShortName>Stem_Theme Secondaire 1.wav</ShortName>
+					<Path>SFX\Stem_Theme Secondaire 1_F17FB28C.wem</Path>
+				</File>
+				<File Id="198625097" Language="SFX">
+					<ShortName>Footsteps_Dirt_Rnd_08.wav</ShortName>
+					<Path>SFX\Footsteps_Dirt_Rnd_08_1C9C67B2.wem</Path>
+				</File>
+				<File Id="202340534" Language="SFX">
+					<ShortName>Footsteps_Concrete_Rnd_01.wav</ShortName>
+					<Path>SFX\Footsteps_Concrete_Rnd_01_1C9C67B2.wem</Path>
+				</File>
+				<File Id="208423172" Language="SFX">
+					<ShortName>Amb_Flash_Light_Rnd_07.wav</ShortName>
+					<Path>SFX\Amb_Flash_Light_Rnd_07_1C9C67B2.wem</Path>
+				</File>
+				<File Id="213959350" Language="SFX">
+					<ShortName>Amb_Cable_Squeak_Rnd_05.wav</ShortName>
+					<Path>SFX\Amb_Cable_Squeak_Rnd_05_1C9C67B2.wem</Path>
+				</File>
+				<File Id="217269281" Language="SFX">
+					<ShortName>Stem_Death Player Loop 2.wav</ShortName>
+					<Path>SFX\Stem_Death Player Loop 2_F17FB28C.wem</Path>
+				</File>
+				<File Id="236162850" Language="SFX">
+					<ShortName>Amb_Flash_Light_Rnd_03.wav</ShortName>
+					<Path>SFX\Amb_Flash_Light_Rnd_03_1C9C67B2.wem</Path>
+				</File>
+				<File Id="240318547" Language="SFX">
+					<ShortName>Sfx_WoodDoor_Close_Rnd_04.wav</ShortName>
+					<Path>SFX\Sfx_WoodDoor_Close_Rnd_04_1C9C67B2.wem</Path>
+				</File>
+				<File Id="245832975" Language="SFX">
+					<ShortName>Footsteps_Concrete_Rnd_06.wav</ShortName>
+					<Path>SFX\Footsteps_Concrete_Rnd_06_1C9C67B2.wem</Path>
+				</File>
+				<File Id="249388798" Language="SFX">
+					<ShortName>Amb_Cable_Squeak_Rnd_02.wav</ShortName>
+					<Path>SFX\Amb_Cable_Squeak_Rnd_02_1C9C67B2.wem</Path>
+				</File>
+				<File Id="250087523" Language="SFX">
+					<ShortName>Stem_Theme Principal 4.wav</ShortName>
+					<Path>SFX\Stem_Theme Principal 4_F17FB28C.wem</Path>
+				</File>
+				<File Id="256207763" Language="SFX">
+					<ShortName>Stem_Theme Principal 1.wav</ShortName>
+					<Path>SFX\Stem_Theme Principal 1_F17FB28C.wem</Path>
+				</File>
+				<File Id="260309397" Language="SFX">
+					<ShortName>Sfx_WoodDoor_Close_Rnd_05.wav</ShortName>
+					<Path>SFX\Sfx_WoodDoor_Close_Rnd_05_1C9C67B2.wem</Path>
+				</File>
+				<File Id="279289859" Language="SFX">
+					<ShortName>Sfx_Wood_Squeak_Rnd_03.wav</ShortName>
+					<Path>SFX\Sfx_Wood_Squeak_Rnd_03_1C9C67B2.wem</Path>
+				</File>
+				<File Id="281055037" Language="SFX">
+					<ShortName>Footsteps_Concrete_Rnd_05.wav</ShortName>
+					<Path>SFX\Footsteps_Concrete_Rnd_05_1C9C67B2.wem</Path>
+				</File>
+				<File Id="288025288" Language="SFX">
+					<ShortName>Footsteps_Metal_Grid_Rnd_02.wav</ShortName>
+					<Path>SFX\Footsteps_Metal_Grid_Rnd_02_1C9C67B2.wem</Path>
+				</File>
+				<File Id="288170846" Language="SFX">
+					<ShortName>Stem_Bass Transition 3.wav</ShortName>
+					<Path>SFX\Stem_Bass Transition 3_F17FB28C.wem</Path>
+				</File>
+				<File Id="288868900" Language="SFX">
+					<ShortName>Sfx_Neon_Rnd_06.wav</ShortName>
+					<Path>SFX\Sfx_Neon_Rnd_06_1C9C67B2.wem</Path>
+				</File>
+				<File Id="297727400" Language="SFX">
+					<ShortName>Footsteps_Metal_Grid_Rnd_09.wav</ShortName>
+					<Path>SFX\Footsteps_Metal_Grid_Rnd_09_1C9C67B2.wem</Path>
+				</File>
+				<File Id="316250689" Language="SFX">
+					<ShortName>Stem_Calme Theme Principal 1.wav</ShortName>
+					<Path>SFX\Stem_Calme Theme Principal 1_F17FB28C.wem</Path>
+				</File>
+				<File Id="322202337" Language="SFX">
+					<ShortName>Sfx_WoodDoor_Close_Rnd_07.wav</ShortName>
+					<Path>SFX\Sfx_WoodDoor_Close_Rnd_07_1C9C67B2.wem</Path>
+				</File>
+				<File Id="324888814" Language="SFX">
+					<ShortName>Amb_Flash_Light_Rnd_01.wav</ShortName>
+					<Path>SFX\Amb_Flash_Light_Rnd_01_1C9C67B2.wem</Path>
+				</File>
+				<File Id="336221496" Language="SFX">
+					<ShortName>Stem_Theme Secondaire 2.wav</ShortName>
+					<Path>SFX\Stem_Theme Secondaire 2_F17FB28C.wem</Path>
+				</File>
+				<File Id="340109481" Language="SFX">
+					<ShortName>Sfx_Neon_Rnd_07.wav</ShortName>
+					<Path>SFX\Sfx_Neon_Rnd_07_1C9C67B2.wem</Path>
+				</File>
+				<File Id="342979484" Language="SFX">
+					<ShortName>Sfx_Box_Impact_Rnd_03.wav</ShortName>
+					<Path>SFX\Sfx_Box_Impact_Rnd_03_1C9C67B2.wem</Path>
+				</File>
+				<File Id="348842606" Language="SFX">
+					<ShortName>Footsteps_Dirt_Rnd_01.wav</ShortName>
+					<Path>SFX\Footsteps_Dirt_Rnd_01_1C9C67B2.wem</Path>
+				</File>
+				<File Id="357192704" Language="SFX">
+					<ShortName>Footsteps_Dirt_Rnd_02.wav</ShortName>
+					<Path>SFX\Footsteps_Dirt_Rnd_02_1C9C67B2.wem</Path>
+				</File>
+				<File Id="364024328" Language="SFX">
+					<ShortName>Footsteps_Concrete_Rnd_10.wav</ShortName>
+					<Path>SFX\Footsteps_Concrete_Rnd_10_1C9C67B2.wem</Path>
+				</File>
+				<File Id="372028658" Language="SFX">
+					<ShortName>Footsteps_Concrete_Rnd_09.wav</ShortName>
+					<Path>SFX\Footsteps_Concrete_Rnd_09_1C9C67B2.wem</Path>
+				</File>
+				<File Id="389210443" Language="SFX">
+					<ShortName>Footsteps_Metal_Rnd_15.wav</ShortName>
+					<Path>SFX\Footsteps_Metal_Rnd_15_1C9C67B2.wem</Path>
+				</File>
+				<File Id="403431349" Language="SFX">
+					<ShortName>Footsteps_Metal_Grid_Rnd_07.wav</ShortName>
+					<Path>SFX\Footsteps_Metal_Grid_Rnd_07_1C9C67B2.wem</Path>
+				</File>
+				<File Id="407071251" Language="SFX">
+					<ShortName>Sfx_Glass_Break_Rnd_01.wav</ShortName>
+					<Path>SFX\Sfx_Glass_Break_Rnd_01_1C9C67B2.wem</Path>
+				</File>
+				<File Id="410167292" Language="SFX">
+					<ShortName>Sfx_Light_Down_Rnd_01.wav</ShortName>
+					<Path>SFX\Sfx_Light_Down_Rnd_01_1C9C67B2.wem</Path>
+				</File>
+				<File Id="414790639" Language="SFX">
+					<ShortName>Sfx_Box_Impact_Rnd_01.wav</ShortName>
+					<Path>SFX\Sfx_Box_Impact_Rnd_01_1C9C67B2.wem</Path>
+				</File>
+				<File Id="435832223" Language="SFX">
+					<ShortName>Stem_Theme Principal 2.wav</ShortName>
+					<Path>SFX\Stem_Theme Principal 2_F17FB28C.wem</Path>
+				</File>
+				<File Id="440490543" Language="SFX">
+					<ShortName>Sfx_Platform_Movement_Start.wav</ShortName>
+					<Path>SFX\Sfx_Platform_Movement_Start_1C9C67B2.wem</Path>
+				</File>
+				<File Id="442403881" Language="SFX">
+					<ShortName>Amb_Flash_Light_Rnd_06.wav</ShortName>
+					<Path>SFX\Amb_Flash_Light_Rnd_06_1C9C67B2.wem</Path>
+				</File>
+				<File Id="449956912" Language="SFX">
+					<ShortName>Footsteps_Metal_Rnd_01.wav</ShortName>
+					<Path>SFX\Footsteps_Metal_Rnd_01_1C9C67B2.wem</Path>
+				</File>
+				<File Id="453088780" Language="SFX">
+					<ShortName>Footsteps_Dirt_Rnd_03.wav</ShortName>
+					<Path>SFX\Footsteps_Dirt_Rnd_03_1C9C67B2.wem</Path>
+				</File>
+				<File Id="470588139" Language="SFX">
+					<ShortName>Stem_Theme 3.wav</ShortName>
+					<Path>SFX\Stem_Theme 3_F17FB28C.wem</Path>
+				</File>
+				<File Id="473861751" Language="SFX">
+					<ShortName>Footsteps_Concrete_Rnd_03.wav</ShortName>
+					<Path>SFX\Footsteps_Concrete_Rnd_03_1C9C67B2.wem</Path>
+				</File>
+				<File Id="480937506" Language="SFX">
+					<ShortName>Sfx_Box_Impact_Rnd_06.wav</ShortName>
+					<Path>SFX\Sfx_Box_Impact_Rnd_06_1C9C67B2.wem</Path>
+				</File>
+				<File Id="489288303" Language="SFX">
+					<ShortName>Sfx_Light_Down_Rnd_05.wav</ShortName>
+					<Path>SFX\Sfx_Light_Down_Rnd_05_1C9C67B2.wem</Path>
+				</File>
+				<File Id="491138887" Language="SFX">
+					<ShortName>Footsteps_Concrete_Rnd_04.wav</ShortName>
+					<Path>SFX\Footsteps_Concrete_Rnd_04_1C9C67B2.wem</Path>
+				</File>
+				<File Id="491993601" Language="SFX">
+					<ShortName>Sfx_WoodDoor_Close_Rnd_06.wav</ShortName>
+					<Path>SFX\Sfx_WoodDoor_Close_Rnd_06_1C9C67B2.wem</Path>
+				</File>
+				<File Id="495688313" Language="SFX">
+					<ShortName>Footsteps_Metal_Grid_Rnd_12.wav</ShortName>
+					<Path>SFX\Footsteps_Metal_Grid_Rnd_12_1C9C67B2.wem</Path>
+				</File>
+				<File Id="496889228" Language="SFX">
+					<ShortName>Amb_Flash_Light_Rnd_10.wav</ShortName>
+					<Path>SFX\Amb_Flash_Light_Rnd_10_1C9C67B2.wem</Path>
+				</File>
+				<File Id="509478917" Language="SFX">
+					<ShortName>Footsteps_Metal_Grid_Rnd_10.wav</ShortName>
+					<Path>SFX\Footsteps_Metal_Grid_Rnd_10_1C9C67B2.wem</Path>
+				</File>
+				<File Id="513237000" Language="SFX">
+					<ShortName>Amb_Monster_Rnd_03.wav</ShortName>
+					<Path>SFX\Amb_Monster_Rnd_03_1C9C67B2.wem</Path>
+				</File>
+				<File Id="519577298" Language="SFX">
+					<ShortName>Stem_Death Player Loop 1.wav</ShortName>
+					<Path>SFX\Stem_Death Player Loop 1_F17FB28C.wem</Path>
+				</File>
+				<File Id="521382939" Language="SFX">
+					<ShortName>Sfx_Neon_Rnd_08.wav</ShortName>
+					<Path>SFX\Sfx_Neon_Rnd_08_1C9C67B2.wem</Path>
+				</File>
+				<File Id="523443482" Language="SFX">
+					<ShortName>Footsteps_Metal_Rnd_10.wav</ShortName>
+					<Path>SFX\Footsteps_Metal_Rnd_10_1C9C67B2.wem</Path>
+				</File>
+				<File Id="523737459" Language="SFX">
+					<ShortName>Footsteps_Concrete_Rnd_02.wav</ShortName>
+					<Path>SFX\Footsteps_Concrete_Rnd_02_1C9C67B2.wem</Path>
+				</File>
+				<File Id="532722004" Language="SFX">
+					<ShortName>Footsteps_Concrete_Rnd_15.wav</ShortName>
+					<Path>SFX\Footsteps_Concrete_Rnd_15_1C9C67B2.wem</Path>
+				</File>
+				<File Id="543845309" Language="SFX">
+					<ShortName>Footsteps_Metal_Grid_Rnd_0.wav</ShortName>
+					<Path>SFX\Footsteps_Metal_Grid_Rnd_0_1C9C67B2.wem</Path>
+				</File>
+				<File Id="556326131" Language="SFX">
+					<ShortName>Footsteps_Concrete_Rnd_14.wav</ShortName>
+					<Path>SFX\Footsteps_Concrete_Rnd_14_1C9C67B2.wem</Path>
+				</File>
+				<File Id="558412725" Language="SFX">
+					<ShortName>Footsteps_Dirt_Rnd_04.wav</ShortName>
+					<Path>SFX\Footsteps_Dirt_Rnd_04_1C9C67B2.wem</Path>
+				</File>
+				<File Id="568767121" Language="SFX">
+					<ShortName>Footsteps_Concrete_Rnd_07.wav</ShortName>
+					<Path>SFX\Footsteps_Concrete_Rnd_07_1C9C67B2.wem</Path>
+				</File>
+				<File Id="569044953" Language="SFX">
+					<ShortName>Sfx_Neon_Rnd_04.wav</ShortName>
+					<Path>SFX\Sfx_Neon_Rnd_04_1C9C67B2.wem</Path>
+				</File>
+				<File Id="572563892" Language="SFX">
+					<ShortName>Sfx_Box_Start.wav</ShortName>
+					<Path>SFX\Sfx_Box_Start_1C9C67B2.wem</Path>
+				</File>
+				<File Id="583163570" Language="SFX">
+					<ShortName>Footsteps_Dirt_Rnd_05.wav</ShortName>
+					<Path>SFX\Footsteps_Dirt_Rnd_05_1C9C67B2.wem</Path>
+				</File>
+				<File Id="586401971" Language="SFX">
+					<ShortName>Footsteps_Metal_Grid_Rnd_11.wav</ShortName>
+					<Path>SFX\Footsteps_Metal_Grid_Rnd_11_1C9C67B2.wem</Path>
+				</File>
+				<File Id="587222689" Language="SFX">
+					<ShortName>Sfx_SpotLight_Break_Rnd_01.wav</ShortName>
+					<Path>SFX\Sfx_SpotLight_Break_Rnd_01_1C9C67B2.wem</Path>
+				</File>
+				<File Id="591327755" Language="SFX">
+					<ShortName>Amb_Flash_Light_Rnd_02.wav</ShortName>
+					<Path>SFX\Amb_Flash_Light_Rnd_02_1C9C67B2.wem</Path>
+				</File>
+				<File Id="592763642" Language="SFX">
+					<ShortName>Footsteps_Metal_Rnd_13.wav</ShortName>
+					<Path>SFX\Footsteps_Metal_Rnd_13_1C9C67B2.wem</Path>
+				</File>
+				<File Id="594591930" Language="SFX">
+					<ShortName>Footsteps_Dirt_Rnd_11.wav</ShortName>
+					<Path>SFX\Footsteps_Dirt_Rnd_11_1C9C67B2.wem</Path>
+				</File>
+				<File Id="595407541" Language="SFX">
+					<ShortName>Sfx_Light_Down_Rnd_03.wav</ShortName>
+					<Path>SFX\Sfx_Light_Down_Rnd_03_1C9C67B2.wem</Path>
+				</File>
+				<File Id="596848476" Language="SFX">
+					<ShortName>Footsteps_Dirt_Rnd_09.wav</ShortName>
+					<Path>SFX\Footsteps_Dirt_Rnd_09_1C9C67B2.wem</Path>
+				</File>
+				<File Id="609380634" Language="SFX">
+					<ShortName>Footsteps_Metal_Rnd_05.wav</ShortName>
+					<Path>SFX\Footsteps_Metal_Rnd_05_1C9C67B2.wem</Path>
+				</File>
+				<File Id="627012029" Language="SFX">
+					<ShortName>Footsteps_Metal_Grid_Rnd_15.wav</ShortName>
+					<Path>SFX\Footsteps_Metal_Grid_Rnd_15_1C9C67B2.wem</Path>
+				</File>
+				<File Id="633570883" Language="SFX">
+					<ShortName>Amb_Monster_Rnd_04.wav</ShortName>
+					<Path>SFX\Amb_Monster_Rnd_04_1C9C67B2.wem</Path>
+				</File>
+				<File Id="650238517" Language="SFX">
+					<ShortName>Footsteps_Concrete_Rnd_08.wav</ShortName>
+					<Path>SFX\Footsteps_Concrete_Rnd_08_1C9C67B2.wem</Path>
+				</File>
+				<File Id="651634772" Language="SFX">
+					<ShortName>Footsteps_Metal_Rnd_02.wav</ShortName>
+					<Path>SFX\Footsteps_Metal_Rnd_02_1C9C67B2.wem</Path>
+				</File>
+				<File Id="659518257" Language="SFX">
+					<ShortName>Stem_Calme 2.wav</ShortName>
+					<Path>SFX\Stem_Calme 2_F17FB28C.wem</Path>
+				</File>
+				<File Id="675880470" Language="SFX">
+					<ShortName>Footsteps_Metal_Rnd_09.wav</ShortName>
+					<Path>SFX\Footsteps_Metal_Rnd_09_1C9C67B2.wem</Path>
+				</File>
+				<File Id="682877990" Language="SFX">
+					<ShortName>Stem_Calme 3.wav</ShortName>
+					<Path>SFX\Stem_Calme 3_F17FB28C.wem</Path>
+				</File>
+				<File Id="684235355" Language="SFX">
+					<ShortName>Sfx_Wood_Squeak_Rnd_14.wav</ShortName>
+					<Path>SFX\Sfx_Wood_Squeak_Rnd_14_1C9C67B2.wem</Path>
+				</File>
+				<File Id="691199832" Language="SFX">
+					<ShortName>Sfx_Wood_Squeak_Rnd_09.wav</ShortName>
+					<Path>SFX\Sfx_Wood_Squeak_Rnd_09_1C9C67B2.wem</Path>
+				</File>
+				<File Id="727632500" Language="SFX">
+					<ShortName>Sfx_WoodDoor_Close_Rnd_02.wav</ShortName>
+					<Path>SFX\Sfx_WoodDoor_Close_Rnd_02_1C9C67B2.wem</Path>
+				</File>
+				<File Id="727636769" Language="SFX">
+					<ShortName>Amb_Monster_Rnd_06.wav</ShortName>
+					<Path>SFX\Amb_Monster_Rnd_06_1C9C67B2.wem</Path>
+				</File>
+				<File Id="738083134" Language="SFX">
+					<ShortName>Stem_Intro 2.wav</ShortName>
+					<Path>SFX\Stem_Intro 2_F17FB28C.wem</Path>
+				</File>
+				<File Id="740121157" Language="SFX">
+					<ShortName>Sfx_SpotLight_Break_Rnd_03.wav</ShortName>
+					<Path>SFX\Sfx_SpotLight_Break_Rnd_03_1C9C67B2.wem</Path>
+				</File>
+				<File Id="740243689" Language="SFX">
+					<ShortName>Footsteps_Metal_Grid_Rnd_05.wav</ShortName>
+					<Path>SFX\Footsteps_Metal_Grid_Rnd_05_1C9C67B2.wem</Path>
+				</File>
+				<File Id="740615373" Language="SFX">
+					<ShortName>Stem_Danger 2.wav</ShortName>
+					<Path>SFX\Stem_Danger 2_F17FB28C.wem</Path>
+				</File>
+				<File Id="741247187" Language="SFX">
+					<ShortName>Sfx_Neon_Rnd_10.wav</ShortName>
+					<Path>SFX\Sfx_Neon_Rnd_10_1C9C67B2.wem</Path>
+				</File>
+				<File Id="753017975" Language="SFX">
+					<ShortName>Footsteps_Metal_Rnd_04.wav</ShortName>
+					<Path>SFX\Footsteps_Metal_Rnd_04_1C9C67B2.wem</Path>
+				</File>
+				<File Id="765372925" Language="SFX">
+					<ShortName>Footsteps_Metal_Rnd_14.wav</ShortName>
+					<Path>SFX\Footsteps_Metal_Rnd_14_1C9C67B2.wem</Path>
+				</File>
+				<File Id="771121884" Language="SFX">
+					<ShortName>Stem_Bass Transition 2.wav</ShortName>
+					<Path>SFX\Stem_Bass Transition 2_F17FB28C.wem</Path>
+				</File>
+				<File Id="771479212" Language="SFX">
+					<ShortName>Sfx_WoodDoor_Close_Rnd_08.wav</ShortName>
+					<Path>SFX\Sfx_WoodDoor_Close_Rnd_08_1C9C67B2.wem</Path>
+				</File>
+				<File Id="771580047" Language="SFX">
+					<ShortName>Footsteps_Metal_Rnd_11.wav</ShortName>
+					<Path>SFX\Footsteps_Metal_Rnd_11_1C9C67B2.wem</Path>
+				</File>
+				<File Id="771588791" Language="SFX">
+					<ShortName>Footsteps_Metal_Grid_Rnd_08.wav</ShortName>
+					<Path>SFX\Footsteps_Metal_Grid_Rnd_08_1C9C67B2.wem</Path>
+				</File>
+				<File Id="774465179" Language="SFX">
+					<ShortName>Sfx_Wood_Squeak_Rnd_07.wav</ShortName>
+					<Path>SFX\Sfx_Wood_Squeak_Rnd_07_1C9C67B2.wem</Path>
+				</File>
+				<File Id="781261854" Language="SFX">
+					<ShortName>Footsteps_Concrete_Rnd_13.wav</ShortName>
+					<Path>SFX\Footsteps_Concrete_Rnd_13_1C9C67B2.wem</Path>
+				</File>
+				<File Id="796462680" Language="SFX">
+					<ShortName>Footsteps_Dirt_Rnd_07.wav</ShortName>
+					<Path>SFX\Footsteps_Dirt_Rnd_07_1C9C67B2.wem</Path>
+				</File>
+				<File Id="803745447" Language="SFX">
+					<ShortName>Stem_Danger 1.wav</ShortName>
+					<Path>SFX\Stem_Danger 1_F17FB28C.wem</Path>
+				</File>
+				<File Id="808327791" Language="SFX">
+					<ShortName>Footsteps_Dirt_Rnd_13.wav</ShortName>
+					<Path>SFX\Footsteps_Dirt_Rnd_13_1C9C67B2.wem</Path>
+				</File>
+				<File Id="808899361" Language="SFX">
+					<ShortName>Sfx_Wood_Squeak_Rnd_02.wav</ShortName>
+					<Path>SFX\Sfx_Wood_Squeak_Rnd_02_1C9C67B2.wem</Path>
+				</File>
+				<File Id="811189382" Language="SFX">
+					<ShortName>Sfx_Wood_Squeak_Rnd_06.wav</ShortName>
+					<Path>SFX\Sfx_Wood_Squeak_Rnd_06_1C9C67B2.wem</Path>
+				</File>
+				<File Id="817981480" Language="SFX">
+					<ShortName>Sfx_Wood_Squeak_Rnd_10.wav</ShortName>
+					<Path>SFX\Sfx_Wood_Squeak_Rnd_10_1C9C67B2.wem</Path>
+				</File>
+				<File Id="818780867" Language="SFX">
+					<ShortName>Footsteps_Metal_Grid_Rnd_13.wav</ShortName>
+					<Path>SFX\Footsteps_Metal_Grid_Rnd_13_1C9C67B2.wem</Path>
+				</File>
+				<File Id="819598292" Language="SFX">
+					<ShortName>Sfx_WoodDoor_Close_Rnd_01.wav</ShortName>
+					<Path>SFX\Sfx_WoodDoor_Close_Rnd_01_1C9C67B2.wem</Path>
+				</File>
+				<File Id="823161926" Language="SFX">
+					<ShortName>Stem_Transition BPM Danger End.wav</ShortName>
+					<Path>SFX\Stem_Transition BPM Danger End_F17FB28C.wem</Path>
+				</File>
+				<File Id="824441054" Language="SFX">
+					<ShortName>Sfx_Glass_Break_Rnd_05.wav</ShortName>
+					<Path>SFX\Sfx_Glass_Break_Rnd_05_1C9C67B2.wem</Path>
+				</File>
+				<File Id="825472309" Language="SFX">
+					<ShortName>Sfx_Wood_Squeak_Rnd_01.wav</ShortName>
+					<Path>SFX\Sfx_Wood_Squeak_Rnd_01_1C9C67B2.wem</Path>
+				</File>
+				<File Id="826298879" Language="SFX">
+					<ShortName>Sfx_Box_Impact_Rnd_04.wav</ShortName>
+					<Path>SFX\Sfx_Box_Impact_Rnd_04_1C9C67B2.wem</Path>
+				</File>
+				<File Id="834352565" Language="SFX">
+					<ShortName>Amb_Monster_Rnd_01.wav</ShortName>
+					<Path>SFX\Amb_Monster_Rnd_01_1C9C67B2.wem</Path>
+				</File>
+				<File Id="834573282" Language="SFX">
+					<ShortName>Sfx_Neon_Rnd_02.wav</ShortName>
+					<Path>SFX\Sfx_Neon_Rnd_02_1C9C67B2.wem</Path>
+				</File>
+				<File Id="837430061" Language="SFX">
+					<ShortName>Sfx_Neon_Rnd_01.wav</ShortName>
+					<Path>SFX\Sfx_Neon_Rnd_01_1C9C67B2.wem</Path>
+				</File>
+				<File Id="838720753" Language="SFX">
+					<ShortName>Footsteps_Metal_Rnd_08.wav</ShortName>
+					<Path>SFX\Footsteps_Metal_Rnd_08_1C9C67B2.wem</Path>
+				</File>
+				<File Id="856515659" Language="SFX">
+					<ShortName>Sfx_Wood_Squeak_Rnd_12.wav</ShortName>
+					<Path>SFX\Sfx_Wood_Squeak_Rnd_12_1C9C67B2.wem</Path>
+				</File>
+				<File Id="864188730" Language="SFX">
+					<ShortName>Footsteps_Metal_Rnd_12.wav</ShortName>
+					<Path>SFX\Footsteps_Metal_Rnd_12_1C9C67B2.wem</Path>
+				</File>
+				<File Id="866427048" Language="SFX">
+					<ShortName>Sfx_Glass_Break_Rnd_06.wav</ShortName>
+					<Path>SFX\Sfx_Glass_Break_Rnd_06_1C9C67B2.wem</Path>
+				</File>
+				<File Id="868685153" Language="SFX">
+					<ShortName>Amb_Flash_Light_Rnd_09.wav</ShortName>
+					<Path>SFX\Amb_Flash_Light_Rnd_09_1C9C67B2.wem</Path>
+				</File>
+				<File Id="876140284" Language="SFX">
+					<ShortName>Sfx_Wood_Squeak_Rnd_04.wav</ShortName>
+					<Path>SFX\Sfx_Wood_Squeak_Rnd_04_1C9C67B2.wem</Path>
+				</File>
+				<File Id="879324520" Language="SFX">
+					<ShortName>Sfx_WoodDoor_Close_Rnd_03.wav</ShortName>
+					<Path>SFX\Sfx_WoodDoor_Close_Rnd_03_1C9C67B2.wem</Path>
+				</File>
+				<File Id="891130816" Language="SFX">
+					<ShortName>Sfx_Neon_Rnd_12.wav</ShortName>
+					<Path>SFX\Sfx_Neon_Rnd_12_1C9C67B2.wem</Path>
+				</File>
+				<File Id="900528139" Language="SFX">
+					<ShortName>Sfx_SpotLight_Break_Rnd_02.wav</ShortName>
+					<Path>SFX\Sfx_SpotLight_Break_Rnd_02_1C9C67B2.wem</Path>
+				</File>
+				<File Id="902837198" Language="SFX">
+					<ShortName>Amb_Cable_Squeak_Rnd_06.wav</ShortName>
+					<Path>SFX\Amb_Cable_Squeak_Rnd_06_1C9C67B2.wem</Path>
+				</File>
+				<File Id="905695545" Language="SFX">
+					<ShortName>Stem_Calme 1.wav</ShortName>
+					<Path>SFX\Stem_Calme 1_F17FB28C.wem</Path>
+				</File>
+				<File Id="917536235" Language="SFX">
+					<ShortName>Sfx_Wood_Squeak_Rnd_15.wav</ShortName>
+					<Path>SFX\Sfx_Wood_Squeak_Rnd_15_1C9C67B2.wem</Path>
+				</File>
+				<File Id="924462921" Language="SFX">
+					<ShortName>Footsteps_Metal_Rnd_03.wav</ShortName>
+					<Path>SFX\Footsteps_Metal_Rnd_03_1C9C67B2.wem</Path>
+				</File>
+				<File Id="926695053" Language="SFX">
+					<ShortName>Sfx_Neon_Rnd_03.wav</ShortName>
+					<Path>SFX\Sfx_Neon_Rnd_03_1C9C67B2.wem</Path>
+				</File>
+				<File Id="929326451" Language="SFX">
+					<ShortName>Footsteps_Dirt_Rnd_12.wav</ShortName>
+					<Path>SFX\Footsteps_Dirt_Rnd_12_1C9C67B2.wem</Path>
+				</File>
+				<File Id="933506695" Language="SFX">
+					<ShortName>Amb_Cable_Squeak_Rnd_04.wav</ShortName>
+					<Path>SFX\Amb_Cable_Squeak_Rnd_04_1C9C67B2.wem</Path>
+				</File>
+				<File Id="937355937" Language="SFX">
+					<ShortName>Sfx_Box_End.wav</ShortName>
+					<Path>SFX\Sfx_Box_End_1C9C67B2.wem</Path>
+				</File>
+				<File Id="943110541" Language="SFX">
+					<ShortName>Amb_Flash_Light_Rnd_04.wav</ShortName>
+					<Path>SFX\Amb_Flash_Light_Rnd_04_1C9C67B2.wem</Path>
+				</File>
+				<File Id="948662700" Language="SFX">
+					<ShortName>Sfx_Box_Impact_Rnd_05.wav</ShortName>
+					<Path>SFX\Sfx_Box_Impact_Rnd_05_1C9C67B2.wem</Path>
+				</File>
+				<File Id="954731084" Language="SFX">
+					<ShortName>Stem_Transition BPM Danger Loop.wav</ShortName>
+					<Path>SFX\Stem_Transition BPM Danger Loop_F17FB28C.wem</Path>
+				</File>
+				<File Id="974292802" Language="SFX">
+					<ShortName>Sfx_Glass_Break_Rnd_04.wav</ShortName>
+					<Path>SFX\Sfx_Glass_Break_Rnd_04_1C9C67B2.wem</Path>
+				</File>
+				<File Id="978666034" Language="SFX">
+					<ShortName>Sfx_Neon_Rnd_09.wav</ShortName>
+					<Path>SFX\Sfx_Neon_Rnd_09_1C9C67B2.wem</Path>
+				</File>
+				<File Id="991993014" Language="SFX">
+					<ShortName>Footsteps_Metal_Grid_Rnd_06.wav</ShortName>
+					<Path>SFX\Footsteps_Metal_Grid_Rnd_06_1C9C67B2.wem</Path>
+				</File>
+				<File Id="999787527" Language="SFX">
+					<ShortName>Stem_Intro 1.wav</ShortName>
+					<Path>SFX\Stem_Intro 1_F17FB28C.wem</Path>
+				</File>
+				<File Id="1011550407" Language="SFX">
+					<ShortName>Amb_Monster_Rnd_07.wav</ShortName>
+					<Path>SFX\Amb_Monster_Rnd_07_1C9C67B2.wem</Path>
+				</File>
+				<File Id="1037025537" Language="SFX">
+					<ShortName>Footsteps_Metal_Grid_Rnd_03.wav</ShortName>
+					<Path>SFX\Footsteps_Metal_Grid_Rnd_03_1C9C67B2.wem</Path>
+				</File>
+				<File Id="1037867716" Language="SFX">
+					<ShortName>Footsteps_Metal_Grid_Rnd_14.wav</ShortName>
+					<Path>SFX\Footsteps_Metal_Grid_Rnd_14_1C9C67B2.wem</Path>
+				</File>
+				<File Id="1048681715" Language="SFX">
+					<ShortName>Amb_Flash_Light_Rnd_05.wav</ShortName>
+					<Path>SFX\Amb_Flash_Light_Rnd_05_1C9C67B2.wem</Path>
+				</File>
+				<File Id="1050001050" Language="SFX">
+					<ShortName>Stem_Bass Transition 1.wav</ShortName>
+					<Path>SFX\Stem_Bass Transition 1_F17FB28C.wem</Path>
+				</File>
+				<File Id="1055312803" Language="SFX">
+					<ShortName>Sfx_Neon_Rnd_11.wav</ShortName>
+					<Path>SFX\Sfx_Neon_Rnd_11_1C9C67B2.wem</Path>
+				</File>
+				<File Id="1056876155" Language="SFX">
+					<ShortName>Sfx_Neon_Rnd_05.wav</ShortName>
+					<Path>SFX\Sfx_Neon_Rnd_05_1C9C67B2.wem</Path>
+				</File>
+				<File Id="1068659966" Language="SFX">
+					<ShortName>Sfx_Light_Down_Rnd_04.wav</ShortName>
+					<Path>SFX\Sfx_Light_Down_Rnd_04_1C9C67B2.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

@@ -1,0 +1,3 @@
+EpicJam_SoundBank	"Music_Calm"
+EpicJam_SoundBank	"Event_Music_Danger"
+EpicJam_SoundBank	"Event_Music_Death"
