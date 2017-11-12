@@ -1539,8 +1539,21 @@
 										</ActorMixer>
 										<SwitchContainer Name="Sfx_Footsteps" ID="{2AF21CFE-A655-4D1C-876C-96C1DC2AAF73}" ShortID="565224903">
 											<PropertyList>
+												<Property Name="GameAuxSendVolume" Type="Real64">
+													<ValueList>
+														<Value>-9</Value>
+													</ValueList>
+												</Property>
+												<Property Name="OverrideGameAuxSends" Type="bool" Value="True"/>
 												<Property Name="OverridePositioning" Type="bool" Value="True"/>
+												<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
 												<Property Name="PositioningType" Type="int16" Value="1"/>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+												<Property Name="UserAuxSendVolume0" Type="Real64">
+													<ValueList>
+														<Value>-9</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Attenuation">
@@ -1558,7 +1571,7 @@
 													<PropertyList>
 														<Property Name="GameAuxSendVolume" Type="Real64">
 															<ValueList>
-																<Value>-18</Value>
+																<Value>-9</Value>
 															</ValueList>
 														</Property>
 														<Property Name="OverrideEffect" Type="bool" Value="True"/>
@@ -1568,7 +1581,7 @@
 														<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 														<Property Name="UserAuxSendVolume0" Type="Real64">
 															<ValueList>
-																<Value>-18</Value>
+																<Value>-9</Value>
 															</ValueList>
 														</Property>
 													</PropertyList>

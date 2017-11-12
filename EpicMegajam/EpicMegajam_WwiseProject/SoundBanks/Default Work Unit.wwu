@@ -14,8 +14,8 @@
 				</SoundBank>
 				<SoundBank Name="Reverberation" ID="{08ED0599-D2EB-43B7-948B-1E118989DE58}">
 					<ObjectInclusionList>
-						<ObjectRef Name="Rev_Studio" ID="{380C242A-024B-4286-8DB7-E518B85216D8}" WorkUnitID="{48788DB2-6AD1-41E8-88D5-9E63C46392A2}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Rev_LargeHall" ID="{66E6B9F5-B2A1-46E9-9743-A1F5B19D1108}" WorkUnitID="{48788DB2-6AD1-41E8-88D5-9E63C46392A2}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Room_Small" ID="{577F1466-A63B-47F7-98BD-C56E433F8B5D}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Hall_Large_Bright" ID="{CB602948-2D1D-4977-A8D5-378184293E80}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

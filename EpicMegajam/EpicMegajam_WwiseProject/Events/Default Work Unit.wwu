@@ -233,6 +233,12 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
+								<Action Name="" ID="{9850E131-661E-469C-A3D1-DED3F06D3B39}" ShortID="867535162">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="3"/>
+									</PropertyList>
+									<ReferenceList/>
+								</Action>
 							</ChildrenList>
 						</Event>
 						<Event Name="Event_Music_Danger" ID="{9ED43893-8284-4025-B384-6709CD2F45EB}">
@@ -247,6 +253,12 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
+								<Action Name="" ID="{3CB5F4EE-6DF6-455A-9F0F-D148EAB93435}" ShortID="283413218">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="3"/>
+									</PropertyList>
+									<ReferenceList/>
+								</Action>
 							</ChildrenList>
 						</Event>
 						<Event Name="Event_Music_Death" ID="{1AEEC120-F707-46F9-864E-4D8F85C94CF1}">
@@ -260,6 +272,12 @@
 											<ObjectRef Name="Music_Death" ID="{823B1012-3E68-4B14-92D1-1A32DCCE549C}" WorkUnitID="{B991E678-0F1B-48BA-ABD4-BFA8EF587B58}"/>
 										</Reference>
 									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{FE10E4CE-7415-4188-97F4-2850AB7BCCEC}" ShortID="1030088756">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="3"/>
+									</PropertyList>
+									<ReferenceList/>
 								</Action>
 							</ChildrenList>
 						</Event>
