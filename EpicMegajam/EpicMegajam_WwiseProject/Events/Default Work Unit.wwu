@@ -235,9 +235,23 @@
 								</Action>
 								<Action Name="" ID="{9850E131-661E-469C-A3D1-DED3F06D3B39}" ShortID="867535162">
 									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="3"/>
+										<Property Name="ActionType" Type="int16" Value="2"/>
 									</PropertyList>
-									<ReferenceList/>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Music_Danger" ID="{FDA9DC98-12EA-4853-8D3D-580A96B7EAA9}" WorkUnitID="{B991E678-0F1B-48BA-ABD4-BFA8EF587B58}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{3BE6B662-4619-4D8A-AD6E-CEA2BB5BCFD3}" ShortID="444507021">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Music_Death" ID="{823B1012-3E68-4B14-92D1-1A32DCCE549C}" WorkUnitID="{B991E678-0F1B-48BA-ABD4-BFA8EF587B58}"/>
+										</Reference>
+									</ReferenceList>
 								</Action>
 							</ChildrenList>
 						</Event>
@@ -253,11 +267,25 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
-								<Action Name="" ID="{3CB5F4EE-6DF6-455A-9F0F-D148EAB93435}" ShortID="283413218">
+								<Action Name="" ID="{9297CE5B-EE47-4F55-BEC2-B3DC2E29E809}" ShortID="845136690">
 									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="3"/>
+										<Property Name="ActionType" Type="int16" Value="2"/>
 									</PropertyList>
-									<ReferenceList/>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Music_Calm" ID="{426B418A-5943-4309-B842-A8E285646BD3}" WorkUnitID="{B991E678-0F1B-48BA-ABD4-BFA8EF587B58}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{FB3535D4-8819-41EC-AC3F-95D56B78D0C6}" ShortID="34224072">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Music_Death" ID="{823B1012-3E68-4B14-92D1-1A32DCCE549C}" WorkUnitID="{B991E678-0F1B-48BA-ABD4-BFA8EF587B58}"/>
+										</Reference>
+									</ReferenceList>
 								</Action>
 							</ChildrenList>
 						</Event>
@@ -273,11 +301,25 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
-								<Action Name="" ID="{FE10E4CE-7415-4188-97F4-2850AB7BCCEC}" ShortID="1030088756">
+								<Action Name="" ID="{CCAEE5DF-AA69-4FD6-BD73-5093E1ECE655}" ShortID="501502355">
 									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="3"/>
+										<Property Name="ActionType" Type="int16" Value="2"/>
 									</PropertyList>
-									<ReferenceList/>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Music_Calm" ID="{426B418A-5943-4309-B842-A8E285646BD3}" WorkUnitID="{B991E678-0F1B-48BA-ABD4-BFA8EF587B58}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{211DAE87-8550-41A9-902D-C222D7027D38}" ShortID="596319484">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Music_Danger" ID="{FDA9DC98-12EA-4853-8D3D-580A96B7EAA9}" WorkUnitID="{B991E678-0F1B-48BA-ABD4-BFA8EF587B58}"/>
+										</Reference>
+									</ReferenceList>
 								</Action>
 							</ChildrenList>
 						</Event>
