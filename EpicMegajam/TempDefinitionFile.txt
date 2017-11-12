@@ -1,1 +1,2 @@
 EpicJam_SoundBank	"Event_Game_Starts"
+EpicJam_SoundBank	"Event_Footsteps"
