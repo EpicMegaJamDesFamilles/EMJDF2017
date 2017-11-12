@@ -1,3 +1,1 @@
-EpicJam_SoundBank	"Event_Music_Calm"
-EpicJam_SoundBank	"Event_Music_Danger"
-EpicJam_SoundBank	"Event_Music_Death"
+EpicJam_SoundBank	"Event_Game_Starts"
