@@ -221,7 +221,7 @@
 				</Folder>
 				<Folder Name="Music" ID="{A01C2F0A-C6D2-42A4-8321-E4124A182315}" ShortID="676811485">
 					<ChildrenList>
-						<Event Name="Music_Calm" ID="{D59CE8FB-1736-42DD-818E-6E97C7319985}">
+						<Event Name="Event_Music_Calm" ID="{D59CE8FB-1736-42DD-818E-6E97C7319985}">
 							<ChildrenList>
 								<Action Name="" ID="{3F873D76-FDF2-4BD4-86BF-40DAB2543AD6}" ShortID="659885449">
 									<PropertyList>
