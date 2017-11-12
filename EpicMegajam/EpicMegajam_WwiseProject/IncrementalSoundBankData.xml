@@ -3,15 +3,15 @@
 	<Platform GUID="{A45F6AD4-04EF-47F0-B011-C7E1A8960965}">
 		<Banks>
 			<Language ID="393239870">
-				<File Name="EpicJam_SoundBank" Hash="2295822665" Timestamp="131549221799380992"/>
-				<File Name="Init" Hash="3025219725" Timestamp="131549221799446081"/>
+				<File Name="EpicJam_SoundBank" Hash="2295822665" Timestamp="131549670839242168"/>
+				<File Name="Init" Hash="3025219725" Timestamp="131549670839557825"/>
 				<File Name="JamBank" Hash="2312463457" Timestamp="131549180093698424"/>
 				<File Name="Reverberation" Hash="3655302825" Timestamp="131549176046286982"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="1172467513" Timestamp="131549221799466110"/>
+				<File Name="" Hash="1172467513" Timestamp="131549670839577697"/>
 			</Language>
 		</XMLInfo>
 	</Platform>
